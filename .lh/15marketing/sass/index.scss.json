@@ -3,11 +3,235 @@
     "activeCommit": 0,
     "commits": [
         {
-            "activePatchIndex": 0,
+            "activePatchIndex": 56,
             "patches": [
                 {
                     "date": 1622382074766,
                     "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1622393926709,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,46 +0,0 @@\n-*, *:before, *:after{\r\n-   box-sizing: border-box;\r\n-}\r\n-\r\n-html, body, div, span, object, iframe, figure, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, code, em, img, small, strike, strong, sub, sup, tt, b, u, i, ol, ul, li, fieldset, form, label, table, caption, tbody, tfoot, thead, tr, th, td, main, canvas, embed, footer, header, nav, section, video{\r\n-   margin: 0;\r\n-   padding: 0;\r\n-   border: 0;\r\n-   font-size: 100%;\r\n-   font: inherit;\r\n-   vertical-align: baseline;\r\n-   text-rendering: optimizeLegibility;\r\n-   -webkit-font-smoothing: antialiased;\r\n-   text-size-adjust: none;\r\n-}\r\n-\r\n-footer, header, nav, section, main{\r\n-   display: block;\r\n-}\r\n-\r\n-body{\r\n-   line-height: 1;\r\n-}\r\n-\r\n-ol, ul{\r\n-   list-style: none;\r\n-}\r\n-\r\n-blockquote, q{\r\n-   quotes: none;\r\n-}\r\n-\r\n-blockquote:before, blockquote:after, q:before, q:after{\r\n-   content: '';\r\n-   content: none;\r\n-}\r\n-\r\n-table{\r\n-   border-collapse: collapse;\r\n-   border-spacing: 0;\r\n-}\r\n-\r\n-input{\r\n-   -webkit-appearance: none;\r\n-   border-radius: 0;\r\n-}\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1622393994492,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,46 @@\n+*, *:before, *:after{\r\n+   box-sizing: border-box;\r\n+}\r\n+\r\n+html, body, div, span, object, iframe, figure, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, code, em, img, small, strike, strong, sub, sup, tt, b, u, i, ol, ul, li, fieldset, form, label, table, caption, tbody, tfoot, thead, tr, th, td, main, canvas, embed, footer, header, nav, section, video{\r\n+   margin: 0;\r\n+   padding: 0;\r\n+   border: 0;\r\n+   font-size: 100%;\r\n+   font: inherit;\r\n+   vertical-align: baseline;\r\n+   text-rendering: optimizeLegibility;\r\n+   -webkit-font-smoothing: antialiased;\r\n+   text-size-adjust: none;\r\n+}\r\n+\r\n+footer, header, nav, section, main{\r\n+   display: block;\r\n+}\r\n+\r\n+body{\r\n+   line-height: 1;\r\n+}\r\n+\r\n+ol, ul{\r\n+   list-style: none;\r\n+}\r\n+\r\n+blockquote, q{\r\n+   quotes: none;\r\n+}\r\n+\r\n+blockquote:before, blockquote:after, q:before, q:after{\r\n+   content: '';\r\n+   content: none;\r\n+}\r\n+\r\n+table{\r\n+   border-collapse: collapse;\r\n+   border-spacing: 0;\r\n+}\r\n+\r\n+input{\r\n+   -webkit-appearance: none;\r\n+   border-radius: 0;\r\n+}\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1622394010505,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,46 +0,0 @@\n-*, *:before, *:after{\r\n-   box-sizing: border-box;\r\n-}\r\n-\r\n-html, body, div, span, object, iframe, figure, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, code, em, img, small, strike, strong, sub, sup, tt, b, u, i, ol, ul, li, fieldset, form, label, table, caption, tbody, tfoot, thead, tr, th, td, main, canvas, embed, footer, header, nav, section, video{\r\n-   margin: 0;\r\n-   padding: 0;\r\n-   border: 0;\r\n-   font-size: 100%;\r\n-   font: inherit;\r\n-   vertical-align: baseline;\r\n-   text-rendering: optimizeLegibility;\r\n-   -webkit-font-smoothing: antialiased;\r\n-   text-size-adjust: none;\r\n-}\r\n-\r\n-footer, header, nav, section, main{\r\n-   display: block;\r\n-}\r\n-\r\n-body{\r\n-   line-height: 1;\r\n-}\r\n-\r\n-ol, ul{\r\n-   list-style: none;\r\n-}\r\n-\r\n-blockquote, q{\r\n-   quotes: none;\r\n-}\r\n-\r\n-blockquote:before, blockquote:after, q:before, q:after{\r\n-   content: '';\r\n-   content: none;\r\n-}\r\n-\r\n-table{\r\n-   border-collapse: collapse;\r\n-   border-spacing: 0;\r\n-}\r\n-\r\n-input{\r\n-   -webkit-appearance: none;\r\n-   border-radius: 0;\r\n-}\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1622394049889,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,46 @@\n+*, *:before, *:after{\r\n+   box-sizing: border-box;\r\n+}\r\n+\r\n+html, body, div, span, object, iframe, figure, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, code, em, img, small, strike, strong, sub, sup, tt, b, u, i, ol, ul, li, fieldset, form, label, table, caption, tbody, tfoot, thead, tr, th, td, main, canvas, embed, footer, header, nav, section, video{\r\n+   margin: 0;\r\n+   padding: 0;\r\n+   border: 0;\r\n+   font-size: 100%;\r\n+   font: inherit;\r\n+   vertical-align: baseline;\r\n+   text-rendering: optimizeLegibility;\r\n+   -webkit-font-smoothing: antialiased;\r\n+   text-size-adjust: none;\r\n+}\r\n+\r\n+footer, header, nav, section, main{\r\n+   display: block;\r\n+}\r\n+\r\n+body{\r\n+   line-height: 1;\r\n+}\r\n+\r\n+ol, ul{\r\n+   list-style: none;\r\n+}\r\n+\r\n+blockquote, q{\r\n+   quotes: none;\r\n+}\r\n+\r\n+blockquote:before, blockquote:after, q:before, q:after{\r\n+   content: '';\r\n+   content: none;\r\n+}\r\n+\r\n+table{\r\n+   border-collapse: collapse;\r\n+   border-spacing: 0;\r\n+}\r\n+\r\n+input{\r\n+   -webkit-appearance: none;\r\n+   border-radius: 0;\r\n+}\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1622394514830,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,4 +1,6 @@\n+\r\n+\r\n *, *:before, *:after{\r\n    box-sizing: border-box;\r\n }\r\n \r\n"
+                },
+                {
+                    "date": 1622394525867,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,6 +1,6 @@\n+// Reset CSS \r\n \r\n-\r\n *, *:before, *:after{\r\n    box-sizing: border-box;\r\n }\r\n \r\n"
+                },
+                {
+                    "date": 1622394533147,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -44,5 +44,9 @@\n \r\n input{\r\n    -webkit-appearance: none;\r\n    border-radius: 0;\r\n-}\n\\ No newline at end of file\n+}\r\n+\r\n+// Reset CSS \r\n+\r\n+\r\n"
+                },
+                {
+                    "date": 1622394564569,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -48,5 +48,4 @@\n }\r\n \r\n // Reset CSS \r\n \r\n-\r\n"
+                },
+                {
+                    "date": 1622394630392,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -48,4 +48,7 @@\n }\r\n \r\n // Reset CSS \r\n \r\n+.background{\r\n+   \r\n+}\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1622394653065,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -49,6 +49,6 @@\n \r\n // Reset CSS \r\n \r\n .background{\r\n-   \r\n+   color: red;\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1622394664501,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -49,6 +49,6 @@\n \r\n // Reset CSS \r\n \r\n .background{\r\n-   color: red;\r\n+   background-color: red;\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1622394671935,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -50,5 +50,6 @@\n // Reset CSS \r\n \r\n .background{\r\n    background-color: red;\r\n+   height: 100%;\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1622394785439,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -50,6 +50,6 @@\n // Reset CSS \r\n \r\n .background{\r\n    background-color: red;\r\n-   height: 100%;\r\n+   height: 100vh;\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1622395931360,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -49,7 +49,10 @@\n \r\n // Reset CSS \r\n \r\n .background{\r\n-   background-color: red;\r\n-   height: 100vh;\r\n+   background-image: url(_images/bg.png);\r\n+   background-repeat: no-repeat;\r\n+   background-position: center center;\r\n+   background-attachment: fixed;\r\n+   background-size: cover;\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1622395974293,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -11,9 +11,8 @@\n    font-size: 100%;\r\n    font: inherit;\r\n    vertical-align: baseline;\r\n    text-rendering: optimizeLegibility;\r\n-   -webkit-font-smoothing: antialiased;\r\n    text-size-adjust: none;\r\n }\r\n \r\n footer, header, nav, section, main{\r\n"
+                },
+                {
+                    "date": 1622395982024,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -9,11 +9,9 @@\n    padding: 0;\r\n    border: 0;\r\n    font-size: 100%;\r\n    font: inherit;\r\n-   vertical-align: baseline;\r\n-   text-rendering: optimizeLegibility;\r\n-   text-size-adjust: none;\r\n+\r\n }\r\n \r\n footer, header, nav, section, main{\r\n    display: block;\r\n"
+                },
+                {
+                    "date": 1622395988558,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -9,9 +9,12 @@\n    padding: 0;\r\n    border: 0;\r\n    font-size: 100%;\r\n    font: inherit;\r\n-\r\n+   vertical-align: baseline;\r\n+   text-rendering: optimizeLegibility;\r\n+   -webkit-font-smoothing: antialiased;\r\n+   text-size-adjust: none;\r\n }\r\n \r\n footer, header, nav, section, main{\r\n    display: block;\r\n"
+                },
+                {
+                    "date": 1622396001117,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -10,11 +10,9 @@\n    border: 0;\r\n    font-size: 100%;\r\n    font: inherit;\r\n    vertical-align: baseline;\r\n-   text-rendering: optimizeLegibility;\r\n-   -webkit-font-smoothing: antialiased;\r\n-   text-size-adjust: none;\r\n+\r\n }\r\n \r\n footer, header, nav, section, main{\r\n    display: block;\r\n"
+                },
+                {
+                    "date": 1622396006883,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -10,8 +10,9 @@\n    border: 0;\r\n    font-size: 100%;\r\n    font: inherit;\r\n    vertical-align: baseline;\r\n+   text-rendering: optimizeLegibility;\r\n \r\n }\r\n \r\n footer, header, nav, section, main{\r\n"
+                },
+                {
+                    "date": 1622396014927,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -11,8 +11,9 @@\n    font-size: 100%;\r\n    font: inherit;\r\n    vertical-align: baseline;\r\n    text-rendering: optimizeLegibility;\r\n+   -webkit-font-smoothing: antialiased;\r\n \r\n }\r\n \r\n footer, header, nav, section, main{\r\n"
+                },
+                {
+                    "date": 1622397845172,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -12,9 +12,9 @@\n    font: inherit;\r\n    vertical-align: baseline;\r\n    text-rendering: optimizeLegibility;\r\n    -webkit-font-smoothing: antialiased;\r\n-\r\n+   text-size-adjust: none;\r\n }\r\n \r\n footer, header, nav, section, main{\r\n    display: block;\r\n@@ -49,9 +49,9 @@\n \r\n // Reset CSS \r\n \r\n .background{\r\n-   background-image: url(_images/bg.png);\r\n+   background-image: url('../assets//main-background_desktop.jpg');\r\n    background-repeat: no-repeat;\r\n    background-position: center center;\r\n    background-attachment: fixed;\r\n    background-size: cover;\r\n"
+                },
+                {
+                    "date": 1622397872863,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -54,5 +54,6 @@\n    background-repeat: no-repeat;\r\n    background-position: center center;\r\n    background-attachment: fixed;\r\n    background-size: cover;\r\n+   height: auto;\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1622397878356,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -54,6 +54,6 @@\n    background-repeat: no-repeat;\r\n    background-position: center center;\r\n    background-attachment: fixed;\r\n    background-size: cover;\r\n-   height: auto;\r\n+   height: vh;\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1622397908165,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -54,6 +54,6 @@\n    background-repeat: no-repeat;\r\n    background-position: center center;\r\n    background-attachment: fixed;\r\n    background-size: cover;\r\n-   height: vh;\r\n+   height: 100vh;\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1622398000724,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -51,9 +51,9 @@\n \r\n .background{\r\n    background-image: url('../assets//main-background_desktop.jpg');\r\n    background-repeat: no-repeat;\r\n-   background-position: center center;\r\n+   // background-position: center center;\r\n    background-attachment: fixed;\r\n    background-size: cover;\r\n    height: 100vh;\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1622399205711,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -55,5 +55,9 @@\n    // background-position: center center;\r\n    background-attachment: fixed;\r\n    background-size: cover;\r\n    height: 100vh;\r\n+}\r\n+\r\n+.footer{\r\n+   \r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1622399219499,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -58,6 +58,6 @@\n    height: 100vh;\r\n }\r\n \r\n .footer{\r\n-   \r\n+   background-image: url('../assets//main-background_desktop.jpg');\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1622399236803,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -58,6 +58,6 @@\n    height: 100vh;\r\n }\r\n \r\n .footer{\r\n-   background-image: url('../assets//main-background_desktop.jpg');\r\n+   background-image: url('../assets/footer-background.jpg');\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1622399243417,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -59,5 +59,6 @@\n }\r\n \r\n .footer{\r\n    background-image: url('../assets/footer-background.jpg');\r\n+   height: 100vh;\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1622399298440,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -57,8 +57,11 @@\n    background-size: cover;\r\n    height: 100vh;\r\n }\r\n \r\n+.content{\r\n+   \r\n+}\r\n .footer{\r\n    background-image: url('../assets/footer-background.jpg');\r\n    height: 100vh;\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1622400179499,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -58,10 +58,11 @@\n    height: 100vh;\r\n }\r\n \r\n .content{\r\n-   \r\n+\r\n }\r\n+\r\n .footer{\r\n    background-image: url('../assets/footer-background.jpg');\r\n-   height: 100vh;\r\n+   height: 10vh;\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1622400209003,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -58,9 +58,9 @@\n    height: 100vh;\r\n }\r\n \r\n .content{\r\n-\r\n+   height: 80vh;\r\n }\r\n \r\n .footer{\r\n    background-image: url('../assets/footer-background.jpg');\r\n"
+                },
+                {
+                    "date": 1622400217621,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -63,6 +63,6 @@\n }\r\n \r\n .footer{\r\n    background-image: url('../assets/footer-background.jpg');\r\n-   height: 10vh;\r\n+   height: 20vh;\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1622400230698,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -58,9 +58,9 @@\n    height: 100vh;\r\n }\r\n \r\n .content{\r\n-   height: 80vh;\r\n+   height: 90vh;\r\n }\r\n \r\n .footer{\r\n    background-image: url('../assets/footer-background.jpg');\r\n"
+                },
+                {
+                    "date": 1622400240950,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -58,9 +58,9 @@\n    height: 100vh;\r\n }\r\n \r\n .content{\r\n-   height: 90vh;\r\n+   height: 100vh;\r\n }\r\n \r\n .footer{\r\n    background-image: url('../assets/footer-background.jpg');\r\n"
+                },
+                {
+                    "date": 1622400249486,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -52,9 +52,9 @@\n .background{\r\n    background-image: url('../assets//main-background_desktop.jpg');\r\n    background-repeat: no-repeat;\r\n    // background-position: center center;\r\n-   background-attachment: fixed;\r\n+   // background-attachment: fixed;\r\n    background-size: cover;\r\n    height: 100vh;\r\n }\r\n \r\n"
+                },
+                {
+                    "date": 1622400291648,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -58,9 +58,9 @@\n    height: 100vh;\r\n }\r\n \r\n .content{\r\n-   height: 100vh;\r\n+   height: 90vh;\r\n }\r\n \r\n .footer{\r\n    background-image: url('../assets/footer-background.jpg');\r\n"
+                },
+                {
+                    "date": 1622400340609,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -58,11 +58,11 @@\n    height: 100vh;\r\n }\r\n \r\n .content{\r\n-   height: 90vh;\r\n+   // height: 95vh;\r\n }\r\n \r\n .footer{\r\n    background-image: url('../assets/footer-background.jpg');\r\n-   height: 20vh;\r\n+   // height: 20vh;\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1622400347119,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -63,6 +63,6 @@\n }\r\n \r\n .footer{\r\n    background-image: url('../assets/footer-background.jpg');\r\n-   // height: 20vh;\r\n+   height: 20vh;\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1622400364259,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -63,6 +63,6 @@\n }\r\n \r\n .footer{\r\n    background-image: url('../assets/footer-background.jpg');\r\n-   height: 20vh;\r\n+   height: 100%;\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1622400389786,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -63,6 +63,7 @@\n }\r\n \r\n .footer{\r\n    background-image: url('../assets/footer-background.jpg');\r\n+   width: auto;\r\n    height: 100%;\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1622400398031,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -64,6 +64,6 @@\n \r\n .footer{\r\n    background-image: url('../assets/footer-background.jpg');\r\n    width: auto;\r\n-   height: 100%;\r\n+   // height: 100%;\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1622400411406,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -64,6 +64,6 @@\n \r\n .footer{\r\n    background-image: url('../assets/footer-background.jpg');\r\n    width: auto;\r\n-   // height: 100%;\r\n+   height: 20px;\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1622400456654,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -63,7 +63,8 @@\n }\r\n \r\n .footer{\r\n    background-image: url('../assets/footer-background.jpg');\r\n+   background-size: cover;\r\n    width: auto;\r\n-   height: 20px;\r\n+   height: 300px;\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1622400463681,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -63,8 +63,9 @@\n }\r\n \r\n .footer{\r\n    background-image: url('../assets/footer-background.jpg');\r\n+   background-repeat: no-repeat;\r\n    background-size: cover;\r\n    width: auto;\r\n    height: 300px;\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1622400499324,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -66,6 +66,6 @@\n    background-image: url('../assets/footer-background.jpg');\r\n    background-repeat: no-repeat;\r\n    background-size: cover;\r\n    width: auto;\r\n-   height: 300px;\r\n+   height: 100%;\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1622401147981,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -66,6 +66,6 @@\n    background-image: url('../assets/footer-background.jpg');\r\n    background-repeat: no-repeat;\r\n    background-size: cover;\r\n    width: auto;\r\n-   height: 100%;\r\n+   height: 200px;\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1622402245551,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -67,5 +67,9 @@\n    background-repeat: no-repeat;\r\n    background-size: cover;\r\n    width: auto;\r\n    height: 200px;\r\n+}\r\n+\r\n+.logo{\r\n+   \r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1622402265254,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -70,6 +70,9 @@\n    height: 200px;\r\n }\r\n \r\n .logo{\r\n-   \r\n+   img{\r\n+      height: 100%;\r\n+      width: auto;\r\n+   }\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1622402286766,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -70,8 +70,9 @@\n    height: 200px;\r\n }\r\n \r\n .logo{\r\n+   text-align: center;\r\n    img{\r\n       height: 100%;\r\n       width: auto;\r\n    }\r\n"
+                },
+                {
+                    "date": 1622403005182,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -70,9 +70,10 @@\n    height: 200px;\r\n }\r\n \r\n .logo{\r\n-   text-align: center;\r\n+   margin: auto;\r\n+   width: 50%;\r\n    img{\r\n       height: 100%;\r\n       width: auto;\r\n    }\r\n"
+                },
+                {
+                    "date": 1622403011055,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -71,9 +71,9 @@\n }\r\n \r\n .logo{\r\n    margin: auto;\r\n-   width: 50%;\r\n+   // width: 50%;\r\n    img{\r\n       height: 100%;\r\n       width: auto;\r\n    }\r\n"
+                },
+                {
+                    "date": 1622403017540,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -71,9 +71,9 @@\n }\r\n \r\n .logo{\r\n    margin: auto;\r\n-   // width: 50%;\r\n+   width: 100%;\r\n    img{\r\n       height: 100%;\r\n       width: auto;\r\n    }\r\n"
+                },
+                {
+                    "date": 1622403058011,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -70,10 +70,9 @@\n    height: 200px;\r\n }\r\n \r\n .logo{\r\n-   margin: auto;\r\n-   width: 100%;\r\n+ display: block;\r\n    img{\r\n       height: 100%;\r\n       width: auto;\r\n    }\r\n"
+                },
+                {
+                    "date": 1622403063927,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -71,8 +71,9 @@\n }\r\n \r\n .logo{\r\n  display: block;\r\n+ text-align: center;\r\n    img{\r\n       height: 100%;\r\n       width: auto;\r\n    }\r\n"
+                },
+                {
+                    "date": 1622413257977,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -76,5 +76,36 @@\n    img{\r\n       height: 100%;\r\n       width: auto;\r\n    }\r\n-}\n\\ No newline at end of file\n+}\r\n+\r\n+.slot {\r\n+   width: 20vh;\r\n+   height: 60vh;\r\n+   overflow: hidden;\r\n+   float: left;\r\n+   margin-right: 2vh;\r\n+ }\r\n+ \r\n+ .slot .slot-inner .panel {\r\n+   background: red;\r\n+   width: 20vh;\r\n+   height: 20vh;\r\n+   text-align: center;\r\n+   margin-bottom: 2vh;\r\n+   color: #fff;\r\n+   font-family: Courier New;\r\n+   line-height: 20vh;\r\n+   font-size: 10vh;\r\n+ }\r\n+ \r\n+ .slot.first .slot-inner {\r\n+   animation: spin 2s infinite linear;\r\n+ }\r\n+ \r\n+ \r\n+ \r\n+ @keyframes spin {\r\n+   from { margin-top: 0; }\r\n+   to { margin-top: -174.6vh; }\r\n+ }\n\\ No newline at end of file\n"
                 }
             ],
             "date": 1622382074766,

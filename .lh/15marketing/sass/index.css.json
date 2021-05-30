@@ -1,0 +1,22 @@
+{
+    "sourceFile": "15marketing/sass/index.css",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 1,
+            "patches": [
+                {
+                    "date": 1622394207320,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1622394391829,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,46 @@\n+*, *:before, *:after{\r\n+    box-sizing: border-box;\r\n+ }\r\n+ \r\n+ html, body, div, span, object, iframe, figure, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, code, em, img, small, strike, strong, sub, sup, tt, b, u, i, ol, ul, li, fieldset, form, label, table, caption, tbody, tfoot, thead, tr, th, td, main, canvas, embed, footer, header, nav, section, video{\r\n+    margin: 0;\r\n+    padding: 0;\r\n+    border: 0;\r\n+    font-size: 100%;\r\n+    font: inherit;\r\n+    vertical-align: baseline;\r\n+    text-rendering: optimizeLegibility;\r\n+    -webkit-font-smoothing: antialiased;\r\n+    text-size-adjust: none;\r\n+ }\r\n+ \r\n+ footer, header, nav, section, main{\r\n+    display: block;\r\n+ }\r\n+ \r\n+ body{\r\n+    line-height: 1;\r\n+ }\r\n+ \r\n+ ol, ul{\r\n+    list-style: none;\r\n+ }\r\n+ \r\n+ blockquote, q{\r\n+    quotes: none;\r\n+ }\r\n+ \r\n+ blockquote:before, blockquote:after, q:before, q:after{\r\n+    content: '';\r\n+    content: none;\r\n+ }\r\n+ \r\n+ table{\r\n+    border-collapse: collapse;\r\n+    border-spacing: 0;\r\n+ }\r\n+ \r\n+ input{\r\n+    -webkit-appearance: none;\r\n+    border-radius: 0;\r\n+ }\n\\ No newline at end of file\n"
+                }
+            ],
+            "date": 1622394207320,
+            "name": "Commit-0",
+            "content": ""
+        }
+    ]
+}

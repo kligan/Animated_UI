@@ -48,4 +48,72 @@ input {
   -webkit-appearance: none;
   border-radius: 0;
 }
+
+.background {
+  background-image: url("../assets//main-background_desktop.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
+
+.footer {
+  background-image: url("../assets/footer-background.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: auto;
+  height: 200px;
+}
+
+.logo {
+  display: block;
+  text-align: center;
+}
+
+.logo img {
+  height: 100%;
+  width: auto;
+}
+
+.slot {
+  width: 20vh;
+  height: 60vh;
+  overflow: hidden;
+  float: left;
+  margin-right: 2vh;
+}
+
+.slot .slot-inner .panel {
+  background: red;
+  width: 20vh;
+  height: 20vh;
+  text-align: center;
+  margin-bottom: 2vh;
+  color: #fff;
+  font-family: Courier New;
+  line-height: 20vh;
+  font-size: 10vh;
+}
+
+.slot.first .slot-inner {
+  -webkit-animation: spin 2s infinite linear;
+          animation: spin 2s infinite linear;
+}
+
+@-webkit-keyframes spin {
+  from {
+    margin-top: 0;
+  }
+  to {
+    margin-top: -174.6vh;
+  }
+}
+
+@keyframes spin {
+  from {
+    margin-top: 0;
+  }
+  to {
+    margin-top: -174.6vh;
+  }
+}
 /*# sourceMappingURL=index.css.map */
