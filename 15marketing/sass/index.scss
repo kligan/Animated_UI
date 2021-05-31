@@ -55,7 +55,7 @@ input{
    // background-position: center center;
    // background-attachment: fixed;
    background-size: cover;
-   height: 100vh;
+   // height: 100vh;
 }
 
 .content{
@@ -73,39 +73,74 @@ input{
 .logo{
  display: block;
  text-align: center;
+ 
    img{
-      height: 100%;
-      width: auto;
+      height: 9vw;
+      max-width: 100%;
+      object-fit: contain;
+      margin-top: 6%;
    }
 }
 
-.slot {
-   width: 20vh;
-   height: 60vh;
-   overflow: hidden;
-   float: left;
-   margin-right: 2vh;
- }
+.main-offer_text{
+   text-align: right;
+   img{
+   height: 15vw;
+   max-width: 100%;
+   object-fit: contain;
+   }
+}
+
+.main-offer_reel{
+   img{
+      // margin-top: -20px;
+      margin: -5% 0 0 100px;
+      height: 22vw;
+      max-width: 100%;
+      object-fit: contain; 
+      -ms-transform: rotate(15deg); /* IE 9 */
+      transform: rotate(15deg);
+   }
+}
+
+.join-now{
+   button{
+      height: 200px;
+      width: 200px;
+      display: block;
+      margin: auto;
+      text-align: center;
+      margin-bottom: 200px;
+   }
+
+}
+// .slot {
+//    width: auto;
+//    height: 100%;
+//    overflow: hidden;
+//    // float: left;
+//    margin-right: 2vh;
+//  }
  
- .slot .slot-inner .panel {
-   background: red;
-   width: 20vh;
-   height: 20vh;
-   text-align: center;
-   margin-bottom: 2vh;
-   color: #fff;
-   font-family: Courier New;
-   line-height: 20vh;
-   font-size: 10vh;
- }
+//  .slot .slot-inner .panel {
+//    background: red;
+//    width: 20vh;
+//    height: 20vh;
+//    text-align: center;
+//    margin-bottom: 2vh;
+//    color: #fff;
+//    font-family: Courier New;
+//    line-height: 20vh;
+//    font-size: 10vh;
+//  }
  
- .slot.first .slot-inner {
-   animation: spin 2s infinite linear;
- }
+//  .slot.first .slot-inner {
+//    animation: spin 2s infinite linear;
+//  }
  
  
  
- @keyframes spin {
-   from { margin-top: 0; }
-   to { margin-top: -174.6vh; }
- }
+//  @keyframes spin {
+//    from { margin-top: 0; }
+//    to { margin-top: -174.6vh; }
+//  }

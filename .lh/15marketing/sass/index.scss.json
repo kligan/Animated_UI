@@ -3,7 +3,7 @@
     "activeCommit": 0,
     "commits": [
         {
-            "activePatchIndex": 56,
+            "activePatchIndex": 127,
             "patches": [
                 {
                     "date": 1622382074766,
@@ -232,6 +232,290 @@
                 {
                     "date": 1622413257977,
                     "content": "Index: \n===================================================================\n--- \n+++ \n@@ -76,5 +76,36 @@\n    img{\r\n       height: 100%;\r\n       width: auto;\r\n    }\r\n-}\n\\ No newline at end of file\n+}\r\n+\r\n+.slot {\r\n+   width: 20vh;\r\n+   height: 60vh;\r\n+   overflow: hidden;\r\n+   float: left;\r\n+   margin-right: 2vh;\r\n+ }\r\n+ \r\n+ .slot .slot-inner .panel {\r\n+   background: red;\r\n+   width: 20vh;\r\n+   height: 20vh;\r\n+   text-align: center;\r\n+   margin-bottom: 2vh;\r\n+   color: #fff;\r\n+   font-family: Courier New;\r\n+   line-height: 20vh;\r\n+   font-size: 10vh;\r\n+ }\r\n+ \r\n+ .slot.first .slot-inner {\r\n+   animation: spin 2s infinite linear;\r\n+ }\r\n+ \r\n+ \r\n+ \r\n+ @keyframes spin {\r\n+   from { margin-top: 0; }\r\n+   to { margin-top: -174.6vh; }\r\n+ }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1622414197611,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -104,8 +104,8 @@\n  }\r\n  \r\n  \r\n  \r\n- @keyframes spin {\r\n-   from { margin-top: 0; }\r\n-   to { margin-top: -174.6vh; }\r\n- }\n\\ No newline at end of file\n+//  @keyframes spin {\r\n+//    from { margin-top: 0; }\r\n+//    to { margin-top: -174.6vh; }\r\n+//  }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1622414212560,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -79,9 +79,9 @@\n    }\r\n }\r\n \r\n .slot {\r\n-   width: 20vh;\r\n+   width: auto;\r\n    height: 60vh;\r\n    overflow: hidden;\r\n    float: left;\r\n    margin-right: 2vh;\r\n"
+                },
+                {
+                    "date": 1622414220321,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -80,9 +80,9 @@\n }\r\n \r\n .slot {\r\n    width: auto;\r\n-   height: 60vh;\r\n+   height: 80vh;\r\n    overflow: hidden;\r\n    float: left;\r\n    margin-right: 2vh;\r\n  }\r\n"
+                },
+                {
+                    "date": 1622414230047,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -82,9 +82,9 @@\n .slot {\r\n    width: auto;\r\n    height: 80vh;\r\n    overflow: hidden;\r\n-   float: left;\r\n+   // float: left;\r\n    margin-right: 2vh;\r\n  }\r\n  \r\n  .slot .slot-inner .panel {\r\n"
+                },
+                {
+                    "date": 1622414257590,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -104,8 +104,8 @@\n  }\r\n  \r\n  \r\n  \r\n-//  @keyframes spin {\r\n-//    from { margin-top: 0; }\r\n-//    to { margin-top: -174.6vh; }\r\n-//  }\n\\ No newline at end of file\n+ @keyframes spin {\r\n+   from { margin-top: 0; }\r\n+   to { margin-top: -174.6vh; }\r\n+ }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1622414267050,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -107,5 +107,5 @@\n  \r\n  @keyframes spin {\r\n    from { margin-top: 0; }\r\n    to { margin-top: -174.6vh; }\r\n- }\n\\ No newline at end of file\n+//  }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1622414301026,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -80,9 +80,9 @@\n }\r\n \r\n .slot {\r\n    width: auto;\r\n-   height: 80vh;\r\n+   height: 100%;\r\n    overflow: hidden;\r\n    // float: left;\r\n    margin-right: 2vh;\r\n  }\r\n@@ -104,8 +104,8 @@\n  }\r\n  \r\n  \r\n  \r\n- @keyframes spin {\r\n-   from { margin-top: 0; }\r\n-   to { margin-top: -174.6vh; }\r\n+//  @keyframes spin {\r\n+//    from { margin-top: 0; }\r\n+//    to { margin-top: -174.6vh; }\r\n //  }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1622414324902,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -72,8 +72,9 @@\n \r\n .logo{\r\n  display: block;\r\n  text-align: center;\r\n+ z-index: 1;\r\n    img{\r\n       height: 100%;\r\n       width: auto;\r\n    }\r\n"
+                },
+                {
+                    "date": 1622414334120,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -72,9 +72,9 @@\n \r\n .logo{\r\n  display: block;\r\n  text-align: center;\r\n- z-index: 1;\r\n+ \r\n    img{\r\n       height: 100%;\r\n       width: auto;\r\n    }\r\n"
+                },
+                {
+                    "date": 1622414781665,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -88,17 +88,8 @@\n    margin-right: 2vh;\r\n  }\r\n  \r\n  .slot .slot-inner .panel {\r\n-   background: red;\r\n-   width: 20vh;\r\n-   height: 20vh;\r\n-   text-align: center;\r\n-   margin-bottom: 2vh;\r\n-   color: #fff;\r\n-   font-family: Courier New;\r\n-   line-height: 20vh;\r\n-   font-size: 10vh;\r\n  }\r\n  \r\n  .slot.first .slot-inner {\r\n    animation: spin 2s infinite linear;\r\n"
+                },
+                {
+                    "date": 1622414794206,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -96,8 +96,8 @@\n  }\r\n  \r\n  \r\n  \r\n-//  @keyframes spin {\r\n-//    from { margin-top: 0; }\r\n-//    to { margin-top: -174.6vh; }\r\n-//  }\n\\ No newline at end of file\n+ @keyframes spin {\r\n+   from { margin-top: 0; }\r\n+   to { margin-top: -174.6vh; }\r\n+ }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1622414821543,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -88,16 +88,22 @@\n    margin-right: 2vh;\r\n  }\r\n  \r\n  .slot .slot-inner .panel {\r\n+   text-align: center;\r\n+   margin-bottom: 2vh;\r\n+   color: #fff;\r\n+   font-family: Courier New;\r\n+   line-height: 20vh;\r\n+   font-size: 10vh;\r\n  }\r\n  \r\n  .slot.first .slot-inner {\r\n    animation: spin 2s infinite linear;\r\n  }\r\n  \r\n\\ No newline at end of file\n  \r\n  \r\n- @keyframes spin {\r\n-   from { margin-top: 0; }\r\n-   to { margin-top: -174.6vh; }\r\n- }\n+//  @keyframes spin {\r\n+//    from { margin-top: 0; }\r\n+//    to { margin-top: -174.6vh; }\r\n+//  }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1622414843163,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -88,8 +88,11 @@\n    margin-right: 2vh;\r\n  }\r\n  \r\n  .slot .slot-inner .panel {\r\n+   background: red;\r\n+   width: 20vh;\r\n+   height: 20vh;\r\n    text-align: center;\r\n    margin-bottom: 2vh;\r\n    color: #fff;\r\n    font-family: Courier New;\r\n@@ -102,8 +105,8 @@\n  }\r\n  \r\n  \r\n  \r\n-//  @keyframes spin {\r\n-//    from { margin-top: 0; }\r\n-//    to { margin-top: -174.6vh; }\r\n-//  }\n\\ No newline at end of file\n+ @keyframes spin {\r\n+   from { margin-top: 0; }\r\n+   to { margin-top: -174.6vh; }\r\n+ }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1622417692338,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -79,34 +79,34 @@\n       width: auto;\r\n    }\r\n }\r\n \r\n-.slot {\r\n-   width: auto;\r\n-   height: 100%;\r\n-   overflow: hidden;\r\n-   // float: left;\r\n-   margin-right: 2vh;\r\n- }\r\n+// .slot {\r\n+//    width: auto;\r\n+//    height: 100%;\r\n+//    overflow: hidden;\r\n+//    // float: left;\r\n+//    margin-right: 2vh;\r\n+//  }\r\n  \r\n- .slot .slot-inner .panel {\r\n-   background: red;\r\n-   width: 20vh;\r\n-   height: 20vh;\r\n-   text-align: center;\r\n-   margin-bottom: 2vh;\r\n-   color: #fff;\r\n-   font-family: Courier New;\r\n-   line-height: 20vh;\r\n-   font-size: 10vh;\r\n- }\r\n+//  .slot .slot-inner .panel {\r\n+//    background: red;\r\n+//    width: 20vh;\r\n+//    height: 20vh;\r\n\\ No newline at end of file\n+//    text-align: center;\r\n+//    margin-bottom: 2vh;\r\n+//    color: #fff;\r\n+//    font-family: Courier New;\r\n+//    line-height: 20vh;\r\n+//    font-size: 10vh;\r\n+//  }\r\n  \r\n- .slot.first .slot-inner {\r\n-   animation: spin 2s infinite linear;\r\n- }\r\n+//  .slot.first .slot-inner {\r\n+//    animation: spin 2s infinite linear;\r\n+//  }\r\n  \r\n  \r\n  \r\n- @keyframes spin {\r\n-   from { margin-top: 0; }\r\n-   to { margin-top: -174.6vh; }\r\n- }\n+//  @keyframes spin {\r\n+//    from { margin-top: 0; }\r\n+//    to { margin-top: -174.6vh; }\r\n+//  }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1622418256137,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -74,9 +74,9 @@\n  display: block;\r\n  text-align: center;\r\n  \r\n    img{\r\n-      height: 100%;\r\n+      height: 50%;\r\n       width: auto;\r\n    }\r\n }\r\n \r\n"
+                },
+                {
+                    "date": 1622418265193,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -74,9 +74,9 @@\n  display: block;\r\n  text-align: center;\r\n  \r\n    img{\r\n-      height: 50%;\r\n+      height: 100%;\r\n       width: auto;\r\n    }\r\n }\r\n \r\n"
+                },
+                {
+                    "date": 1622418274816,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -75,9 +75,9 @@\n  text-align: center;\r\n  \r\n    img{\r\n       height: 100%;\r\n-      width: auto;\r\n+      width: 20px;\r\n    }\r\n }\r\n \r\n // .slot {\r\n"
+                },
+                {
+                    "date": 1622418281122,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -75,9 +75,9 @@\n  text-align: center;\r\n  \r\n    img{\r\n       height: 100%;\r\n-      width: 20px;\r\n+      width: 200px;\r\n    }\r\n }\r\n \r\n // .slot {\r\n"
+                },
+                {
+                    "date": 1622418367400,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -75,9 +75,9 @@\n  text-align: center;\r\n  \r\n    img{\r\n       height: 100%;\r\n-      width: 200px;\r\n+      width: 300px;\r\n    }\r\n }\r\n \r\n // .slot {\r\n"
+                },
+                {
+                    "date": 1622418372572,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -75,9 +75,9 @@\n  text-align: center;\r\n  \r\n    img{\r\n       height: 100%;\r\n-      width: 300px;\r\n+      width: 250px;\r\n    }\r\n }\r\n \r\n // .slot {\r\n"
+                },
+                {
+                    "date": 1622418388983,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -75,9 +75,9 @@\n  text-align: center;\r\n  \r\n    img{\r\n       height: 100%;\r\n-      width: 250px;\r\n+      width: 230px;\r\n    }\r\n }\r\n \r\n // .slot {\r\n"
+                },
+                {
+                    "date": 1622418428099,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -76,8 +76,9 @@\n  \r\n    img{\r\n       height: 100%;\r\n       width: 230px;\r\n+      margin-top: 300px;\r\n    }\r\n }\r\n \r\n // .slot {\r\n"
+                },
+                {
+                    "date": 1622418438447,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -76,9 +76,9 @@\n  \r\n    img{\r\n       height: 100%;\r\n       width: 230px;\r\n-      margin-top: 300px;\r\n+      margin-top: 100px;\r\n    }\r\n }\r\n \r\n // .slot {\r\n"
+                },
+                {
+                    "date": 1622418469353,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -76,9 +76,9 @@\n  \r\n    img{\r\n       height: 100%;\r\n       width: 230px;\r\n-      margin-top: 100px;\r\n+      margin-top: 130px;\r\n    }\r\n }\r\n \r\n // .slot {\r\n"
+                },
+                {
+                    "date": 1622418493864,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -76,9 +76,9 @@\n  \r\n    img{\r\n       height: 100%;\r\n       width: 230px;\r\n-      margin-top: 130px;\r\n+      margin-top: 120px;\r\n    }\r\n }\r\n \r\n // .slot {\r\n"
+                },
+                {
+                    "date": 1622418579562,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -80,8 +80,12 @@\n       margin-top: 120px;\r\n    }\r\n }\r\n \r\n+.main-offer_text{\r\n+   \r\n+}\r\n+\r\n // .slot {\r\n //    width: auto;\r\n //    height: 100%;\r\n //    overflow: hidden;\r\n"
+                },
+                {
+                    "date": 1622418604865,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -81,9 +81,10 @@\n    }\r\n }\r\n \r\n .main-offer_text{\r\n-   \r\n+   height: 100%;\r\n+   width: auto;\r\n }\r\n \r\n // .slot {\r\n //    width: auto;\r\n"
+                },
+                {
+                    "date": 1622418673154,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -83,8 +83,9 @@\n \r\n .main-offer_text{\r\n    height: 100%;\r\n    width: auto;\r\n+   object-fit: contain;\r\n }\r\n \r\n // .slot {\r\n //    width: auto;\r\n"
+                },
+                {
+                    "date": 1622418687673,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -81,9 +81,9 @@\n    }\r\n }\r\n \r\n .main-offer_text{\r\n-   height: 100%;\r\n+   height: 200px;\r\n    width: auto;\r\n    object-fit: contain;\r\n }\r\n \r\n"
+                },
+                {
+                    "date": 1622418718281,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -81,11 +81,13 @@\n    }\r\n }\r\n \r\n .main-offer_text{\r\n+   img{\r\n    height: 200px;\r\n    width: auto;\r\n    object-fit: contain;\r\n+   }\r\n }\r\n \r\n // .slot {\r\n //    width: auto;\r\n"
+                },
+                {
+                    "date": 1622419628973,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -82,10 +82,10 @@\n }\r\n \r\n .main-offer_text{\r\n    img{\r\n-   height: 200px;\r\n-   width: auto;\r\n+   height: 20vw;\r\n+   max-width: 100%;\r\n    object-fit: contain;\r\n    }\r\n }\r\n \r\n"
+                },
+                {
+                    "date": 1622419784136,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -74,11 +74,11 @@\n  display: block;\r\n  text-align: center;\r\n  \r\n    img{\r\n-      height: 100%;\r\n-      width: 230px;\r\n-      margin-top: 120px;\r\n+      height: 20vw;\r\n+      max-width: 100%;\r\n+      object-fit: contain;\r\n    }\r\n }\r\n \r\n .main-offer_text{\r\n"
+                },
+                {
+                    "date": 1622419792596,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -74,9 +74,9 @@\n  display: block;\r\n  text-align: center;\r\n  \r\n    img{\r\n-      height: 20vw;\r\n+      height: 10vw;\r\n       max-width: 100%;\r\n       object-fit: contain;\r\n    }\r\n }\r\n"
+                },
+                {
+                    "date": 1622419805315,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -74,11 +74,12 @@\n  display: block;\r\n  text-align: center;\r\n  \r\n    img{\r\n-      height: 10vw;\r\n+      height: 20vw;\r\n       max-width: 100%;\r\n       object-fit: contain;\r\n+      margin-top: 120px;\r\n    }\r\n }\r\n \r\n .main-offer_text{\r\n"
+                },
+                {
+                    "date": 1622419813662,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -74,9 +74,9 @@\n  display: block;\r\n  text-align: center;\r\n  \r\n    img{\r\n-      height: 20vw;\r\n+      height: 10vw;\r\n       max-width: 100%;\r\n       object-fit: contain;\r\n       margin-top: 120px;\r\n    }\r\n"
+                },
+                {
+                    "date": 1622419838346,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -74,9 +74,9 @@\n  display: block;\r\n  text-align: center;\r\n  \r\n    img{\r\n-      height: 10vw;\r\n+      height: 7vw;\r\n       max-width: 100%;\r\n       object-fit: contain;\r\n       margin-top: 120px;\r\n    }\r\n"
+                },
+                {
+                    "date": 1622419848896,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -74,9 +74,9 @@\n  display: block;\r\n  text-align: center;\r\n  \r\n    img{\r\n-      height: 7vw;\r\n+      height: 8vw;\r\n       max-width: 100%;\r\n       object-fit: contain;\r\n       margin-top: 120px;\r\n    }\r\n"
+                },
+                {
+                    "date": 1622419870836,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -74,9 +74,9 @@\n  display: block;\r\n  text-align: center;\r\n  \r\n    img{\r\n-      height: 8vw;\r\n+      height: 7vw;\r\n       max-width: 100%;\r\n       object-fit: contain;\r\n       margin-top: 120px;\r\n    }\r\n"
+                },
+                {
+                    "date": 1622419889974,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -74,9 +74,9 @@\n  display: block;\r\n  text-align: center;\r\n  \r\n    img{\r\n-      height: 7vw;\r\n+      height: 8vw;\r\n       max-width: 100%;\r\n       object-fit: contain;\r\n       margin-top: 120px;\r\n    }\r\n"
+                },
+                {
+                    "date": 1622419895334,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -74,9 +74,9 @@\n  display: block;\r\n  text-align: center;\r\n  \r\n    img{\r\n-      height: 8vw;\r\n+      height: 10vw;\r\n       max-width: 100%;\r\n       object-fit: contain;\r\n       margin-top: 120px;\r\n    }\r\n"
+                },
+                {
+                    "date": 1622419905559,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -74,9 +74,9 @@\n  display: block;\r\n  text-align: center;\r\n  \r\n    img{\r\n-      height: 10vw;\r\n+      height: 9vw;\r\n       max-width: 100%;\r\n       object-fit: contain;\r\n       margin-top: 120px;\r\n    }\r\n"
+                },
+                {
+                    "date": 1622419963999,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -89,8 +89,12 @@\n    object-fit: contain;\r\n    }\r\n }\r\n \r\n+.main-offer_reel{\r\n+   \r\n+}\r\n+\r\n // .slot {\r\n //    width: auto;\r\n //    height: 100%;\r\n //    overflow: hidden;\r\n"
+                },
+                {
+                    "date": 1622419969084,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -90,9 +90,11 @@\n    }\r\n }\r\n \r\n .main-offer_reel{\r\n-   \r\n+   img{\r\n+      \r\n+   }\r\n }\r\n \r\n // .slot {\r\n //    width: auto;\r\n"
+                },
+                {
+                    "date": 1622419982290,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -91,9 +91,11 @@\n }\r\n \r\n .main-offer_reel{\r\n    img{\r\n-      \r\n+      height: 20vw;\r\n+      max-width: 100%;\r\n+      object-fit: contain; \r\n    }\r\n }\r\n \r\n // .slot {\r\n"
+                },
+                {
+                    "date": 1622420004323,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -83,9 +83,9 @@\n }\r\n \r\n .main-offer_text{\r\n    img{\r\n-   height: 20vw;\r\n+   height: 15vw;\r\n    max-width: 100%;\r\n    object-fit: contain;\r\n    }\r\n }\r\n"
+                },
+                {
+                    "date": 1622420187911,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -82,8 +82,9 @@\n    }\r\n }\r\n \r\n .main-offer_text{\r\n+   text-align: right;\r\n    img{\r\n    height: 15vw;\r\n    max-width: 100%;\r\n    object-fit: contain;\r\n"
+                },
+                {
+                    "date": 1622420246755,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -92,8 +92,9 @@\n }\r\n \r\n .main-offer_reel{\r\n    img{\r\n+      margin-top: -20px;\r\n       height: 20vw;\r\n       max-width: 100%;\r\n       object-fit: contain; \r\n    }\r\n"
+                },
+                {
+                    "date": 1622420256183,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -92,9 +92,9 @@\n }\r\n \r\n .main-offer_reel{\r\n    img{\r\n-      margin-top: -20px;\r\n+      margin-top: -200px;\r\n       height: 20vw;\r\n       max-width: 100%;\r\n       object-fit: contain; \r\n    }\r\n"
+                },
+                {
+                    "date": 1622420268129,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -92,9 +92,9 @@\n }\r\n \r\n .main-offer_reel{\r\n    img{\r\n-      margin-top: -200px;\r\n+      // margin-top: -20px;\r\n       height: 20vw;\r\n       max-width: 100%;\r\n       object-fit: contain; \r\n    }\r\n"
+                },
+                {
+                    "date": 1622420320229,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -96,8 +96,10 @@\n       // margin-top: -20px;\r\n       height: 20vw;\r\n       max-width: 100%;\r\n       object-fit: contain; \r\n+      -ms-transform: rotate(20deg); /* IE 9 */\r\n+      transform: rotate(20deg);\r\n    }\r\n }\r\n \r\n // .slot {\r\n"
+                },
+                {
+                    "date": 1622420342787,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -96,10 +96,10 @@\n       // margin-top: -20px;\r\n       height: 20vw;\r\n       max-width: 100%;\r\n       object-fit: contain; \r\n-      -ms-transform: rotate(20deg); /* IE 9 */\r\n-      transform: rotate(20deg);\r\n+      -ms-transform: rotate(15deg); /* IE 9 */\r\n+      transform: rotate(15deg);\r\n    }\r\n }\r\n \r\n // .slot {\r\n"
+                },
+                {
+                    "date": 1622420412554,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -93,9 +93,9 @@\n \r\n .main-offer_reel{\r\n    img{\r\n       // margin-top: -20px;\r\n-      height: 20vw;\r\n+      height: 18vw;\r\n       max-width: 100%;\r\n       object-fit: contain; \r\n       -ms-transform: rotate(15deg); /* IE 9 */\r\n       transform: rotate(15deg);\r\n"
+                },
+                {
+                    "date": 1622420460167,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -93,8 +93,9 @@\n \r\n .main-offer_reel{\r\n    img{\r\n       // margin-top: -20px;\r\n+      margin: -30px 0 0 50px;\r\n       height: 18vw;\r\n       max-width: 100%;\r\n       object-fit: contain; \r\n       -ms-transform: rotate(15deg); /* IE 9 */\r\n"
+                },
+                {
+                    "date": 1622420733548,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -77,9 +77,9 @@\n    img{\r\n       height: 9vw;\r\n       max-width: 100%;\r\n       object-fit: contain;\r\n-      margin-top: 120px;\r\n+      margin-top: 6%;\r\n    }\r\n }\r\n \r\n .main-offer_text{\r\n"
+                },
+                {
+                    "date": 1622420925697,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -93,10 +93,10 @@\n \r\n .main-offer_reel{\r\n    img{\r\n       // margin-top: -20px;\r\n-      margin: -30px 0 0 50px;\r\n-      height: 18vw;\r\n+      margin: -80px 0 0 50px;\r\n+      height: 22vw;\r\n       max-width: 100%;\r\n       object-fit: contain; \r\n       -ms-transform: rotate(15deg); /* IE 9 */\r\n       transform: rotate(15deg);\r\n"
+                },
+                {
+                    "date": 1622421066009,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -93,9 +93,9 @@\n \r\n .main-offer_reel{\r\n    img{\r\n       // margin-top: -20px;\r\n-      margin: -80px 0 0 50px;\r\n+      margin: -80px 0 0 100px;\r\n       height: 22vw;\r\n       max-width: 100%;\r\n       object-fit: contain; \r\n       -ms-transform: rotate(15deg); /* IE 9 */\r\n"
+                },
+                {
+                    "date": 1622421075139,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -93,9 +93,9 @@\n \r\n .main-offer_reel{\r\n    img{\r\n       // margin-top: -20px;\r\n-      margin: -80px 0 0 100px;\r\n+      margin: -100px 0 0 100px;\r\n       height: 22vw;\r\n       max-width: 100%;\r\n       object-fit: contain; \r\n       -ms-transform: rotate(15deg); /* IE 9 */\r\n"
+                },
+                {
+                    "date": 1622423982926,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -93,9 +93,9 @@\n \r\n .main-offer_reel{\r\n    img{\r\n       // margin-top: -20px;\r\n-      margin: -100px 0 0 100px;\r\n+      margin: -100vh 0 0 100px;\r\n       height: 22vw;\r\n       max-width: 100%;\r\n       object-fit: contain; \r\n       -ms-transform: rotate(15deg); /* IE 9 */\r\n"
+                },
+                {
+                    "date": 1622423988235,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -93,9 +93,9 @@\n \r\n .main-offer_reel{\r\n    img{\r\n       // margin-top: -20px;\r\n-      margin: -100vh 0 0 100px;\r\n+      margin: -10vh 0 0 100px;\r\n       height: 22vw;\r\n       max-width: 100%;\r\n       object-fit: contain; \r\n       -ms-transform: rotate(15deg); /* IE 9 */\r\n"
+                },
+                {
+                    "date": 1622424002187,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -93,9 +93,9 @@\n \r\n .main-offer_reel{\r\n    img{\r\n       // margin-top: -20px;\r\n-      margin: -10vh 0 0 100px;\r\n+      margin: -10% 0 0 100px;\r\n       height: 22vw;\r\n       max-width: 100%;\r\n       object-fit: contain; \r\n       -ms-transform: rotate(15deg); /* IE 9 */\r\n"
+                },
+                {
+                    "date": 1622424024511,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -93,9 +93,9 @@\n \r\n .main-offer_reel{\r\n    img{\r\n       // margin-top: -20px;\r\n-      margin: -10% 0 0 100px;\r\n+      margin: -5% 0 0 100px;\r\n       height: 22vw;\r\n       max-width: 100%;\r\n       object-fit: contain; \r\n       -ms-transform: rotate(15deg); /* IE 9 */\r\n"
+                },
+                {
+                    "date": 1622424200665,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -102,8 +102,15 @@\n       transform: rotate(15deg);\r\n    }\r\n }\r\n \r\n+.join-now{\r\n+   height: 200px;\r\n+   width: 200px;\r\n+   display: block;\r\n+   margin: auto;\r\n+   text-align: center;\r\n+}\r\n // .slot {\r\n //    width: auto;\r\n //    height: 100%;\r\n //    overflow: hidden;\r\n"
+                },
+                {
+                    "date": 1622424228357,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -103,8 +103,11 @@\n    }\r\n }\r\n \r\n .join-now{\r\n+   button{\r\n+      \r\n+   }\r\n    height: 200px;\r\n    width: 200px;\r\n    display: block;\r\n    margin: auto;\r\n"
+                },
+                {
+                    "date": 1622424233748,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -104,15 +104,15 @@\n }\r\n \r\n .join-now{\r\n    button{\r\n-      \r\n+      height: 200px;\r\n+      width: 200px;\r\n+      display: block;\r\n+      margin: auto;\r\n+      text-align: center;\r\n    }\r\n-   height: 200px;\r\n-   width: 200px;\r\n-   display: block;\r\n-   margin: auto;\r\n-   text-align: center;\r\n+\r\n }\r\n // .slot {\r\n //    width: auto;\r\n //    height: 100%;\r\n"
+                },
+                {
+                    "date": 1622424243721,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -109,8 +109,9 @@\n       width: 200px;\r\n       display: block;\r\n       margin: auto;\r\n       text-align: center;\r\n+      margin-bottom: 30px;\r\n    }\r\n \r\n }\r\n // .slot {\r\n"
+                },
+                {
+                    "date": 1622424248973,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -109,9 +109,9 @@\n       width: 200px;\r\n       display: block;\r\n       margin: auto;\r\n       text-align: center;\r\n-      margin-bottom: 30px;\r\n+      margin-bottom: 300px;\r\n    }\r\n \r\n }\r\n // .slot {\r\n"
+                },
+                {
+                    "date": 1622424262894,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -109,9 +109,9 @@\n       width: 200px;\r\n       display: block;\r\n       margin: auto;\r\n       text-align: center;\r\n-      margin-bottom: 300px;\r\n+      margin-bottom: 50px;\r\n    }\r\n \r\n }\r\n // .slot {\r\n"
+                },
+                {
+                    "date": 1622424276871,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -52,9 +52,9 @@\n .background{\r\n    background-image: url('../assets//main-background_desktop.jpg');\r\n    background-repeat: no-repeat;\r\n    // background-position: center center;\r\n-   // background-attachment: fixed;\r\n+   background-attachment: fixed;\r\n    background-size: cover;\r\n    height: 100vh;\r\n }\r\n \r\n"
+                },
+                {
+                    "date": 1622424282619,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -52,9 +52,9 @@\n .background{\r\n    background-image: url('../assets//main-background_desktop.jpg');\r\n    background-repeat: no-repeat;\r\n    // background-position: center center;\r\n-   background-attachment: fixed;\r\n+   // background-attachment: fixed;\r\n    background-size: cover;\r\n    height: 100vh;\r\n }\r\n \r\n"
+                },
+                {
+                    "date": 1622424322861,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -54,9 +54,9 @@\n    background-repeat: no-repeat;\r\n    // background-position: center center;\r\n    // background-attachment: fixed;\r\n    background-size: cover;\r\n-   height: 100vh;\r\n+   // height: 100vh;\r\n }\r\n \r\n .content{\r\n    // height: 95vh;\r\n"
+                },
+                {
+                    "date": 1622424334116,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -109,9 +109,9 @@\n       width: 200px;\r\n       display: block;\r\n       margin: auto;\r\n       text-align: center;\r\n-      margin-bottom: 50px;\r\n+      margin-bottom: 200px;\r\n    }\r\n \r\n }\r\n // .slot {\r\n"
                 }
             ],
             "date": 1622382074766,
