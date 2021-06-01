@@ -73,6 +73,10 @@ input{
       font-size: 10px;
       font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
    }
+   a{
+   text-decoration: none;
+   color: yellow;
+   }
 }
 
 .logo{
@@ -209,13 +213,6 @@ input{
  screen and (min-height: 851px) {
 .footer{
    margin-top: 200px;
-}
-}
-@media screen and (min-width: 820px), 
-screen and (min-height: 851px) {
-.footer{
-  margin-top: 250px;
-//   height: 350px;
 }
 }
 
@@ -356,3 +353,13 @@ screen and (min-height: 851px) {
    height: 200px;
 }
  }
+
+//  ipad fix 
+ @media only screen 
+ and (min-device-width: 768px) 
+ and (max-device-width: 1024px) 
+ and (-webkit-min-device-pixel-ratio: 2) {
+.footer{
+   margin-top: 400px;
+}
+}

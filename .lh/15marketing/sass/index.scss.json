@@ -3,7 +3,7 @@
     "activeCommit": 0,
     "commits": [
         {
-            "activePatchIndex": 851,
+            "activePatchIndex": 891,
             "patches": [
                 {
                     "date": 1622382074766,
@@ -3412,6 +3412,166 @@
                 {
                     "date": 1622513770085,
                     "content": "Index: \n===================================================================\n--- \n+++ \n@@ -351,7 +351,8 @@\n       border-radius: 10px;\r\n    }\r\n }\r\n .footer{\r\n+   margin-top: 1px !important;\r\n    height: 200px;\r\n }\r\n  }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1622534933298,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -354,5 +354,8 @@\n .footer{\r\n    margin-top: 1px !important;\r\n    height: 200px;\r\n }\r\n- }\n\\ No newline at end of file\n+ }\r\n+\r\n+//  ipad fix\r\n+ @media only screen and (max-width: 350px)\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1622534960240,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -357,5 +357,8 @@\n }\r\n  }\r\n \r\n //  ipad fix\r\n- @media only screen and (max-width: 350px)\n\\ No newline at end of file\n+ @media only screen and (max-width: 350px),\r\n+ screen and (min-height: 851px){\r\n+\r\n+ }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1622535129254,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -359,6 +359,8 @@\n \r\n //  ipad fix\r\n  @media only screen and (max-width: 350px),\r\n  screen and (min-height: 851px){\r\n-\r\n+.footer{\r\n+   margin-top: 500px;\r\n+}\r\n  }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1622535134704,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -360,7 +360,7 @@\n //  ipad fix\r\n  @media only screen and (max-width: 350px),\r\n  screen and (min-height: 851px){\r\n .footer{\r\n-   margin-top: 500px;\r\n+   margin-top: 700px;\r\n }\r\n  }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1622535179844,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -358,9 +358,9 @@\n  }\r\n \r\n //  ipad fix\r\n  @media only screen and (max-width: 350px),\r\n- screen and (min-height: 851px){\r\n+ screen and (min-height: 100px){\r\n .footer{\r\n    margin-top: 700px;\r\n }\r\n  }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1622535239741,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -358,9 +358,16 @@\n  }\r\n \r\n //  ipad fix\r\n  @media only screen and (max-width: 350px),\r\n- screen and (min-height: 100px){\r\n+ screen and (min-height: 1000px){\r\n .footer{\r\n    margin-top: 700px;\r\n }\r\n\\ No newline at end of file\n- }\n+ }\r\n+\r\n+ @media only screen \r\n+  and (min-device-width: 1024px) \r\n+  and (max-device-width: 1366px)\r\n+  and (-webkit-min-device-pixel-ratio: 2) {\r\n+\r\n+}\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1622535249151,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -357,17 +357,12 @@\n }\r\n  }\r\n \r\n //  ipad fix\r\n- @media only screen and (max-width: 350px),\r\n- screen and (min-height: 1000px){\r\n-.footer{\r\n-   margin-top: 700px;\r\n-}\r\n- }\r\n-\r\n  @media only screen \r\n   and (min-device-width: 1024px) \r\n   and (max-device-width: 1366px)\r\n   and (-webkit-min-device-pixel-ratio: 2) {\r\n-\r\n+   .footer{\r\n+      margin-top: 700px;\r\n+   }\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1622535264777,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -362,7 +362,7 @@\n   and (min-device-width: 1024px) \r\n   and (max-device-width: 1366px)\r\n   and (-webkit-min-device-pixel-ratio: 2) {\r\n    .footer{\r\n-      margin-top: 700px;\r\n+      // margin-top: 700px;\r\n    }\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1622535275967,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -352,9 +352,9 @@\n    }\r\n }\r\n .footer{\r\n    margin-top: 1px !important;\r\n-   height: 200px;\r\n+   // height: 200px;\r\n }\r\n  }\r\n \r\n //  ipad fix\r\n"
+                },
+                {
+                    "date": 1622535353191,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -362,7 +362,7 @@\n   and (min-device-width: 1024px) \r\n   and (max-device-width: 1366px)\r\n   and (-webkit-min-device-pixel-ratio: 2) {\r\n    .footer{\r\n-      // margin-top: 700px;\r\n+      margin-top: 700px;\r\n    }\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1622535407650,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -362,7 +362,7 @@\n   and (min-device-width: 1024px) \r\n   and (max-device-width: 1366px)\r\n   and (-webkit-min-device-pixel-ratio: 2) {\r\n    .footer{\r\n-      margin-top: 700px;\r\n+      // margin-top: 700px;\r\n    }\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1622535427096,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -352,9 +352,9 @@\n    }\r\n }\r\n .footer{\r\n    margin-top: 1px !important;\r\n-   // height: 200px;\r\n+   height: 200px;\r\n }\r\n  }\r\n \r\n //  ipad fix\r\n"
+                },
+                {
+                    "date": 1622535495279,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -207,9 +207,9 @@\n \r\n  @media screen and (min-width: 1316px), \r\n  screen and (min-height: 851px) {\r\n .footer{\r\n-   margin-top: 200px;\r\n+   // margin-top: 200px;\r\n }\r\n }\r\n @media screen and (min-width: 820px), \r\n screen and (min-height: 851px) {\r\n"
+                },
+                {
+                    "date": 1622535502222,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -207,9 +207,9 @@\n \r\n  @media screen and (min-width: 1316px), \r\n  screen and (min-height: 851px) {\r\n .footer{\r\n-   // margin-top: 200px;\r\n+   margin-top: 200px;\r\n }\r\n }\r\n @media screen and (min-width: 820px), \r\n screen and (min-height: 851px) {\r\n"
+                },
+                {
+                    "date": 1622535520323,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -213,9 +213,9 @@\n }\r\n @media screen and (min-width: 820px), \r\n screen and (min-height: 851px) {\r\n .footer{\r\n-  margin-top: 250px;\r\n+//   margin-top: 250px;\r\n //   height: 350px;\r\n }\r\n }\r\n \r\n"
+                },
+                {
+                    "date": 1622535560977,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -210,16 +210,10 @@\n .footer{\r\n    margin-top: 200px;\r\n }\r\n }\r\n-@media screen and (min-width: 820px), \r\n-screen and (min-height: 851px) {\r\n-.footer{\r\n-//   margin-top: 250px;\r\n-//   height: 350px;\r\n-}\r\n-}\r\n \r\n+\r\n  @media only screen and (max-width: 500px) {\r\n    .background{\r\n       background-image: url('../assets/main-background_mobile.jpg');\r\n       background-repeat: no-repeat;\r\n"
+                },
+                {
+                    "date": 1622535629896,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -356,7 +356,7 @@\n   and (min-device-width: 1024px) \r\n   and (max-device-width: 1366px)\r\n   and (-webkit-min-device-pixel-ratio: 2) {\r\n    .footer{\r\n-      // margin-top: 700px;\r\n+      margin-top: 700px;\r\n    }\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1622535657256,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -210,10 +210,16 @@\n .footer{\r\n    margin-top: 200px;\r\n }\r\n }\r\n+@media screen and (min-width: 820px), \r\n+screen and (min-height: 851px) {\r\n+.footer{\r\n+  margin-top: 250px;\r\n+//   height: 350px;\r\n+}\r\n+}\r\n \r\n-\r\n  @media only screen and (max-width: 500px) {\r\n    .background{\r\n       background-image: url('../assets/main-background_mobile.jpg');\r\n       background-repeat: no-repeat;\r\n@@ -356,7 +362,7 @@\n   and (min-device-width: 1024px) \r\n   and (max-device-width: 1366px)\r\n   and (-webkit-min-device-pixel-ratio: 2) {\r\n    .footer{\r\n-      margin-top: 700px;\r\n+      // margin-top: 700px;\r\n    }\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1622535664530,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -362,7 +362,7 @@\n   and (min-device-width: 1024px) \r\n   and (max-device-width: 1366px)\r\n   and (-webkit-min-device-pixel-ratio: 2) {\r\n    .footer{\r\n-      // margin-top: 700px;\r\n+      margin-top: 700px;\r\n    }\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1622535704307,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -362,7 +362,7 @@\n   and (min-device-width: 1024px) \r\n   and (max-device-width: 1366px)\r\n   and (-webkit-min-device-pixel-ratio: 2) {\r\n    .footer{\r\n-      margin-top: 700px;\r\n+      // margin-top: 700px;\r\n    }\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1622535716054,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -213,9 +213,9 @@\n }\r\n @media screen and (min-width: 820px), \r\n screen and (min-height: 851px) {\r\n .footer{\r\n-  margin-top: 250px;\r\n+//   margin-top: 250px;\r\n //   height: 350px;\r\n }\r\n }\r\n \r\n"
+                },
+                {
+                    "date": 1622535776636,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -213,9 +213,9 @@\n }\r\n @media screen and (min-width: 820px), \r\n screen and (min-height: 851px) {\r\n .footer{\r\n-//   margin-top: 250px;\r\n+  margin-top: 250px;\r\n //   height: 350px;\r\n }\r\n }\r\n \r\n"
+                },
+                {
+                    "date": 1622535789409,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -356,13 +356,4 @@\n    height: 200px;\r\n }\r\n  }\r\n \r\n-//  ipad fix\r\n- @media only screen \r\n-  and (min-device-width: 1024px) \r\n-  and (max-device-width: 1366px)\r\n-  and (-webkit-min-device-pixel-ratio: 2) {\r\n-   .footer{\r\n-      // margin-top: 700px;\r\n-   }\r\n-}\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1622535823636,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -356,4 +356,12 @@\n    height: 200px;\r\n }\r\n  }\r\n \r\n+ @media only screen \r\n+ and (min-device-width: 768px) \r\n+ and (max-device-width: 1024px) \r\n+ and (-webkit-min-device-pixel-ratio: 2) {\r\n+.footer{\r\n+   margin-top: 200px;\r\n+}\r\n+}\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1622535844574,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -361,7 +361,7 @@\n  and (min-device-width: 768px) \r\n  and (max-device-width: 1024px) \r\n  and (-webkit-min-device-pixel-ratio: 2) {\r\n .footer{\r\n-   margin-top: 200px;\r\n+   margin-top: 500px;\r\n }\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1622535852748,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -361,7 +361,7 @@\n  and (min-device-width: 768px) \r\n  and (max-device-width: 1024px) \r\n  and (-webkit-min-device-pixel-ratio: 2) {\r\n .footer{\r\n-   margin-top: 500px;\r\n+   margin-top: 300px;\r\n }\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1622535860217,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -361,7 +361,7 @@\n  and (min-device-width: 768px) \r\n  and (max-device-width: 1024px) \r\n  and (-webkit-min-device-pixel-ratio: 2) {\r\n .footer{\r\n-   margin-top: 300px;\r\n+   margin-top: 370px;\r\n }\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1622535868706,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -361,7 +361,7 @@\n  and (min-device-width: 768px) \r\n  and (max-device-width: 1024px) \r\n  and (-webkit-min-device-pixel-ratio: 2) {\r\n .footer{\r\n-   margin-top: 370px;\r\n+   margin-top: 400px;\r\n }\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1622535879502,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -356,8 +356,9 @@\n    height: 200px;\r\n }\r\n  }\r\n \r\n+//  ipad fix \r\n  @media only screen \r\n  and (min-device-width: 768px) \r\n  and (max-device-width: 1024px) \r\n  and (-webkit-min-device-pixel-ratio: 2) {\r\n"
+                },
+                {
+                    "date": 1622535907819,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -362,7 +362,7 @@\n  and (min-device-width: 768px) \r\n  and (max-device-width: 1024px) \r\n  and (-webkit-min-device-pixel-ratio: 2) {\r\n .footer{\r\n-   margin-top: 400px;\r\n+   // margin-top: 400px;\r\n }\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1622535933131,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -210,15 +210,15 @@\n .footer{\r\n    margin-top: 200px;\r\n }\r\n }\r\n-@media screen and (min-width: 820px), \r\n-screen and (min-height: 851px) {\r\n-.footer{\r\n-  margin-top: 250px;\r\n-//   height: 350px;\r\n-}\r\n-}\r\n+// @media screen and (min-width: 820px), \r\n+// screen and (min-height: 851px) {\r\n+// .footer{\r\n+//   margin-top: 250px;\r\n+// //   height: 350px;\r\n+// }\r\n+// }\r\n \r\n  @media only screen and (max-width: 500px) {\r\n    .background{\r\n       background-image: url('../assets/main-background_mobile.jpg');\r\n@@ -362,7 +362,7 @@\n  and (min-device-width: 768px) \r\n  and (max-device-width: 1024px) \r\n  and (-webkit-min-device-pixel-ratio: 2) {\r\n .footer{\r\n-   // margin-top: 400px;\r\n+   margin-top: 400px;\r\n }\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1622535939915,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -210,15 +210,15 @@\n .footer{\r\n    margin-top: 200px;\r\n }\r\n }\r\n-// @media screen and (min-width: 820px), \r\n-// screen and (min-height: 851px) {\r\n-// .footer{\r\n-//   margin-top: 250px;\r\n-// //   height: 350px;\r\n-// }\r\n-// }\r\n+@media screen and (min-width: 820px), \r\n+screen and (min-height: 851px) {\r\n+.footer{\r\n+  margin-top: 250px;\r\n+//   height: 350px;\r\n+}\r\n+}\r\n \r\n  @media only screen and (max-width: 500px) {\r\n    .background{\r\n       background-image: url('../assets/main-background_mobile.jpg');\r\n"
+                },
+                {
+                    "date": 1622535951150,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -207,15 +207,15 @@\n \r\n  @media screen and (min-width: 1316px), \r\n  screen and (min-height: 851px) {\r\n .footer{\r\n-   margin-top: 200px;\r\n+   // margin-top: 200px;\r\n }\r\n }\r\n @media screen and (min-width: 820px), \r\n screen and (min-height: 851px) {\r\n .footer{\r\n-  margin-top: 250px;\r\n+//   margin-top: 250px;\r\n //   height: 350px;\r\n }\r\n }\r\n \r\n"
+                },
+                {
+                    "date": 1622535957112,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -207,9 +207,9 @@\n \r\n  @media screen and (min-width: 1316px), \r\n  screen and (min-height: 851px) {\r\n .footer{\r\n-   // margin-top: 200px;\r\n+   margin-top: 200px;\r\n }\r\n }\r\n @media screen and (min-width: 820px), \r\n screen and (min-height: 851px) {\r\n"
+                },
+                {
+                    "date": 1622535968143,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -207,9 +207,9 @@\n \r\n  @media screen and (min-width: 1316px), \r\n  screen and (min-height: 851px) {\r\n .footer{\r\n-   margin-top: 200px;\r\n+   // margin-top: 200px;\r\n }\r\n }\r\n @media screen and (min-width: 820px), \r\n screen and (min-height: 851px) {\r\n"
+                },
+                {
+                    "date": 1622536004698,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -207,9 +207,9 @@\n \r\n  @media screen and (min-width: 1316px), \r\n  screen and (min-height: 851px) {\r\n .footer{\r\n-   // margin-top: 200px;\r\n+   margin-top: 200px;\r\n }\r\n }\r\n @media screen and (min-width: 820px), \r\n screen and (min-height: 851px) {\r\n"
+                },
+                {
+                    "date": 1622536012757,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -210,15 +210,8 @@\n .footer{\r\n    margin-top: 200px;\r\n }\r\n }\r\n-@media screen and (min-width: 820px), \r\n-screen and (min-height: 851px) {\r\n-.footer{\r\n-//   margin-top: 250px;\r\n-//   height: 350px;\r\n-}\r\n-}\r\n \r\n  @media only screen and (max-width: 500px) {\r\n    .background{\r\n       background-image: url('../assets/main-background_mobile.jpg');\r\n"
+                },
+                {
+                    "date": 1622536065791,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -72,8 +72,11 @@\n       color: white;\r\n       font-size: 10px;\r\n       font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;\r\n    }\r\n+   a{\r\n+      list-style: none;\r\n+   }\r\n }\r\n \r\n .logo{\r\n  display: block;\r\n"
+                },
+                {
+                    "date": 1622536100219,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -73,9 +73,9 @@\n       font-size: 10px;\r\n       font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;\r\n    }\r\n    a{\r\n-      list-style: none;\r\n+   text-decoration: none;\r\n    }\r\n }\r\n \r\n .logo{\r\n"
+                },
+                {
+                    "date": 1622536106073,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -74,8 +74,9 @@\n       font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;\r\n    }\r\n    a{\r\n    text-decoration: none;\r\n+   color: yellow;\r\n    }\r\n }\r\n \r\n .logo{\r\n"
                 }
             ],
             "date": 1622382074766,
