@@ -60,7 +60,7 @@ input {
   background-repeat: no-repeat;
   background-size: cover;
   width: auto;
-  height: 200px;
+  height: 250px;
   text-align: center;
 }
 
@@ -157,17 +157,15 @@ input {
 .join-now button {
   font-family: 'Komika', Courier, monospace;
   color: #a04107;
-  font-size: 2em;
+  font-size: 2vw;
   border-radius: 15px;
-  height: 2em;
-  width: 300px;
+  height: 4vw;
+  max-width: 20%;
   text-shadow: 0px 1px #f9cc72;
   display: block;
   margin: auto;
-  display: table-cell;
-  vertical-align: middle;
   padding-bottom: 10px;
-  margin-top: 100px;
+  margin-top: 5%;
   background: -webkit-gradient(linear, left bottom, left top, color-stop(50%, #f7c42e), color-stop(50%, #ffe859));
   background: linear-gradient(0deg, #f7c42e 50%, #ffe859 50%);
   border: none;
@@ -232,17 +230,136 @@ input {
   }
 }
 
-@media only screen and (max-width: 600px) {
+.footer_Nav {
+  display: none;
+}
+
+.mobile_Logos1, .mobile_Logos2 {
+  display: none;
+}
+
+@media screen and (min-width: 1316px), screen and (min-height: 851px) {
+  .footer {
+    margin-top: 200px;
+  }
+}
+
+@media screen and (min-width: 820px), screen and (min-height: 851px) {
+  .footer {
+    margin-top: 250px;
+  }
+}
+
+@media only screen and (max-width: 500px) {
   .background {
     background-image: url("../assets/main-background_mobile.jpg");
     background-repeat: no-repeat;
     background-size: cover;
-    height: 100vh;
+  }
+  .mobile-view {
+    display: block;
   }
   .logo img {
     height: 30vw;
     max-width: 100%;
     margin-top: 15%;
+  }
+  .main-offer_text {
+    text-align: center;
+  }
+  .main-offer_text img {
+    height: 35vw;
+    max-width: 100%;
+    margin-top: 20px;
+  }
+  .Animated-slot {
+    top: 10px;
+    left: 35%;
+  }
+  .Animated-slot .spin-machine {
+    max-width: 100%;
+    height: 42vw;
+    margin-top: -10px;
+  }
+  .outer {
+    height: 17vw;
+  }
+  .spin-machine_prize {
+    width: 22vw !important;
+  }
+  .join-now {
+    margin-top: 160px;
+  }
+  .join-now button {
+    height: 10vw;
+    max-width: 50%;
+    font-size: 1em;
+    border-radius: 10px;
+  }
+  .join-now p {
+    font-size: 6px;
+    margin-bottom: 5px;
+  }
+  .footer {
+    height: 300px;
+  }
+  .footer .footer_Text {
+    margin: auto;
+    width: 90%;
+  }
+  .footer img {
+    margin-top: 5px;
+    width: 80%;
+    height: auto;
+  }
+  .footer p {
+    font-size: 8px;
+  }
+  .footer_Nav {
+    display: block;
+    width: 100%;
+    margin: auto;
+  }
+  .footer_Nav ul {
+    margin-top: 30px;
+    height: 40px;
+    -webkit-column-count: 3;
+    column-count: 3;
+  }
+  .footer_Nav a {
+    color: white;
+    font-size: 10px;
+    text-decoration: none;
+  }
+  .initial_Logos {
+    display: none;
+  }
+  .mobile_Logo {
+    display: block;
+    margin-top: 15px;
+    margin-bottom: 25px;
+  }
+  .mobile_Logos1, .mobile_Logos2 {
+    display: block;
+  }
+}
+
+@media only screen and (max-width: 350px) {
+  .footer_Nav {
+    display: none;
+  }
+  .join-now {
+    margin-top: 150px;
+  }
+  .join-now button {
+    height: 12vw;
+    max-width: 50%;
+    font-size: 1em;
+    border-radius: 10px;
+  }
+  .footer {
+    margin-top: 1px !important;
+    height: 200px;
   }
 }
 /*# sourceMappingURL=index.css.map */

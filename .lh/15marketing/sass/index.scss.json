@@ -3,7 +3,7 @@
     "activeCommit": 0,
     "commits": [
         {
-            "activePatchIndex": 609,
+            "activePatchIndex": 851,
             "patches": [
                 {
                     "date": 1622382074766,
@@ -2444,6 +2444,974 @@
                 {
                     "date": 1622504053920,
                     "content": "Index: \n===================================================================\n--- \n+++ \n@@ -291,9 +291,8 @@\n       height: 100vh;\r\n    }\r\n \r\n    .logo{\r\n-\r\n         img{\r\n            height: 30vw;\r\n            max-width: 100%;\r\n            margin-top: 15%;\r\n"
+                },
+                {
+                    "date": 1622504133848,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -297,5 +297,13 @@\n            max-width: 100%;\r\n            margin-top: 15%;\r\n         }\r\n      }\r\n+     .main-offer_text{\r\n+      text-align: right;\r\n+      img{\r\n+      height: 15vw;\r\n+      max-width: 100%;\r\n+      object-fit: contain;\r\n+      }\r\n+   }\r\n  }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1622504161671,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -297,8 +297,9 @@\n            max-width: 100%;\r\n            margin-top: 15%;\r\n         }\r\n      }\r\n+     \r\n      .main-offer_text{\r\n       text-align: right;\r\n       img{\r\n       height: 15vw;\r\n"
+                },
+                {
+                    "date": 1622504176371,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -297,11 +297,11 @@\n            max-width: 100%;\r\n            margin-top: 15%;\r\n         }\r\n      }\r\n-     \r\n+\r\n      .main-offer_text{\r\n-      text-align: right;\r\n+   \r\n       img{\r\n       height: 15vw;\r\n       max-width: 100%;\r\n       object-fit: contain;\r\n"
+                },
+                {
+                    "date": 1622504182346,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -303,8 +303,7 @@\n    \r\n       img{\r\n       height: 15vw;\r\n       max-width: 100%;\r\n-      object-fit: contain;\r\n       }\r\n    }\r\n  }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1622504188828,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -301,9 +301,9 @@\n \r\n      .main-offer_text{\r\n    \r\n       img{\r\n-      height: 15vw;\r\n+      height: 1vw;\r\n       max-width: 100%;\r\n       }\r\n    }\r\n  }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1622504308955,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -299,11 +299,11 @@\n         }\r\n      }\r\n \r\n      .main-offer_text{\r\n-   \r\n+      display: block;\r\n       img{\r\n-      height: 1vw;\r\n+      height: 50vw;\r\n       max-width: 100%;\r\n       }\r\n    }\r\n  }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1622504430487,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -290,8 +290,12 @@\n       background-size: cover;\r\n       height: 100vh;\r\n    }\r\n \r\n+   .mobile-view{\r\n+      \r\n+   }\r\n+\r\n    .logo{\r\n         img{\r\n            height: 30vw;\r\n            max-width: 100%;\r\n"
+                },
+                {
+                    "date": 1622504435915,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -291,9 +291,9 @@\n       height: 100vh;\r\n    }\r\n \r\n    .mobile-view{\r\n-      \r\n+      display: block;\r\n    }\r\n \r\n    .logo{\r\n         img{\r\n"
+                },
+                {
+                    "date": 1622504451650,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -305,9 +305,9 @@\n \r\n      .main-offer_text{\r\n       display: block;\r\n       img{\r\n-      height: 50vw;\r\n+      height: 40vw;\r\n       max-width: 100%;\r\n       }\r\n    }\r\n  }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1622504460228,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -303,9 +303,9 @@\n         }\r\n      }\r\n \r\n      .main-offer_text{\r\n-      display: block;\r\n+      // display: block;\r\n       img{\r\n       height: 40vw;\r\n       max-width: 100%;\r\n       }\r\n"
+                },
+                {
+                    "date": 1622504465570,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -304,8 +304,9 @@\n      }\r\n \r\n      .main-offer_text{\r\n       // display: block;\r\n+      text-align: center;\r\n       img{\r\n       height: 40vw;\r\n       max-width: 100%;\r\n       }\r\n"
+                },
+                {
+                    "date": 1622504476287,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -306,9 +306,9 @@\n      .main-offer_text{\r\n       // display: block;\r\n       text-align: center;\r\n       img{\r\n-      height: 40vw;\r\n+      height: 30vw;\r\n       max-width: 100%;\r\n       }\r\n    }\r\n  }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1622504495855,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -306,9 +306,10 @@\n      .main-offer_text{\r\n       // display: block;\r\n       text-align: center;\r\n       img{\r\n-      height: 30vw;\r\n+      height: 35vw;\r\n       max-width: 100%;\r\n+      margin-top: 10px;\r\n       }\r\n    }\r\n  }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1622504565825,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -308,8 +308,12 @@\n       text-align: center;\r\n       img{\r\n       height: 35vw;\r\n       max-width: 100%;\r\n-      margin-top: 10px;\r\n+      margin-top: 20px;\r\n       }\r\n    }\r\n+\r\n+   .Animated-slot{\r\n+      top: 300px;\r\n+   }\r\n  }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1622504585637,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -313,7 +313,7 @@\n       }\r\n    }\r\n \r\n    .Animated-slot{\r\n-      top: 300px;\r\n+      top: 100px;\r\n    }\r\n  }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1622504594086,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -313,7 +313,7 @@\n       }\r\n    }\r\n \r\n    .Animated-slot{\r\n-      top: 100px;\r\n+      top: 10px;\r\n    }\r\n  }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1622504648768,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -314,6 +314,7 @@\n    }\r\n \r\n    .Animated-slot{\r\n       top: 10px;\r\n+      height: 300px;\r\n    }\r\n  }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1622504688514,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -314,7 +314,10 @@\n    }\r\n \r\n    .Animated-slot{\r\n       top: 10px;\r\n-      height: 300px;\r\n+\r\n+      .spin-machine{\r\n+         \r\n+      }\r\n    }\r\n  }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1622504695360,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -316,8 +316,8 @@\n    .Animated-slot{\r\n       top: 10px;\r\n \r\n       .spin-machine{\r\n-         \r\n+         height: 300px;\r\n       }\r\n    }\r\n  }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1622504707682,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -316,8 +316,8 @@\n    .Animated-slot{\r\n       top: 10px;\r\n \r\n       .spin-machine{\r\n-         height: 300px;\r\n+         height: 20vw;\r\n       }\r\n    }\r\n  }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1622504720771,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -316,8 +316,9 @@\n    .Animated-slot{\r\n       top: 10px;\r\n \r\n       .spin-machine{\r\n+         width: 100%;\r\n          height: 20vw;\r\n       }\r\n    }\r\n  }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1622504727266,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -317,8 +317,8 @@\n       top: 10px;\r\n \r\n       .spin-machine{\r\n          width: 100%;\r\n-         height: 20vw;\r\n+         height: 60vw;\r\n       }\r\n    }\r\n  }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1622504765554,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -316,9 +316,9 @@\n    .Animated-slot{\r\n       top: 10px;\r\n \r\n       .spin-machine{\r\n-         width: 100%;\r\n+   \r\n          height: 60vw;\r\n       }\r\n    }\r\n  }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1622504774425,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -316,9 +316,9 @@\n    .Animated-slot{\r\n       top: 10px;\r\n \r\n       .spin-machine{\r\n-   \r\n-         height: 60vw;\r\n+\r\n+         height: 40vw;\r\n       }\r\n    }\r\n  }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1622504788941,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -316,9 +316,9 @@\n    .Animated-slot{\r\n       top: 10px;\r\n \r\n       .spin-machine{\r\n-\r\n+         margin: auto;\r\n          height: 40vw;\r\n       }\r\n    }\r\n  }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1622504795432,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -316,8 +316,9 @@\n    .Animated-slot{\r\n       top: 10px;\r\n \r\n       .spin-machine{\r\n+         text-align: center;\r\n          margin: auto;\r\n          height: 40vw;\r\n       }\r\n    }\r\n"
+                },
+                {
+                    "date": 1622504843651,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -316,10 +316,8 @@\n    .Animated-slot{\r\n       top: 10px;\r\n \r\n       .spin-machine{\r\n-         text-align: center;\r\n-         margin: auto;\r\n          height: 40vw;\r\n       }\r\n    }\r\n  }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1622505024852,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -314,10 +314,12 @@\n    }\r\n \r\n    .Animated-slot{\r\n       top: 10px;\r\n-\r\n+      left: 35%;\r\n       .spin-machine{\r\n-         height: 40vw;\r\n+         // height: 40vw;\r\n+         max-width: 100%;\r\n+         height: 42vw;\r\n       }\r\n    }\r\n  }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1622505153803,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -321,5 +321,9 @@\n          max-width: 100%;\r\n          height: 42vw;\r\n       }\r\n    }\r\n+\r\n+   .spin-machine_prize{\r\n+      width: 22vw;\r\n+   }\r\n  }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1622505214519,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -323,7 +323,7 @@\n       }\r\n    }\r\n \r\n    .spin-machine_prize{\r\n-      width: 22vw;\r\n+      width: 22vw !important;\r\n    }\r\n  }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1622505299138,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -322,8 +322,11 @@\n          height: 42vw;\r\n       }\r\n    }\r\n \r\n+   .outer{\r\n+      height: 15vw;\r\n+   }\r\n    .spin-machine_prize{\r\n       width: 22vw !important;\r\n    }\r\n  }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1622505305733,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -323,9 +323,9 @@\n       }\r\n    }\r\n \r\n    .outer{\r\n-      height: 15vw;\r\n+      height: 17vw;\r\n    }\r\n    .spin-machine_prize{\r\n       width: 22vw !important;\r\n    }\r\n"
+                },
+                {
+                    "date": 1622505782277,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -328,5 +328,9 @@\n    }\r\n    .spin-machine_prize{\r\n       width: 22vw !important;\r\n    }\r\n+\r\n+   .join-now{\r\n+      \r\n+   }\r\n  }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1622505789626,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -330,7 +330,7 @@\n       width: 22vw !important;\r\n    }\r\n \r\n    .join-now{\r\n-      \r\n+      margin-top: 300px;\r\n    }\r\n  }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1622505798850,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -330,7 +330,7 @@\n       width: 22vw !important;\r\n    }\r\n \r\n    .join-now{\r\n-      margin-top: 300px;\r\n+      margin-top: 100px;\r\n    }\r\n  }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1622505805186,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -330,7 +330,7 @@\n       width: 22vw !important;\r\n    }\r\n \r\n    .join-now{\r\n-      margin-top: 100px;\r\n+      margin-top: 80px;\r\n    }\r\n  }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1622505815718,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -330,7 +330,7 @@\n       width: 22vw !important;\r\n    }\r\n \r\n    .join-now{\r\n-      margin-top: 80px;\r\n+      margin-top: 70px;\r\n    }\r\n  }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1622505833881,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -331,6 +331,10 @@\n    }\r\n \r\n    .join-now{\r\n       margin-top: 70px;\r\n+\r\n+      button{\r\n+         \r\n+      }\r\n    }\r\n  }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1622505859304,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -333,8 +333,9 @@\n    .join-now{\r\n       margin-top: 70px;\r\n \r\n       button{\r\n-         \r\n+         height: 2em;\r\n+         width: 300px;\r\n       }\r\n    }\r\n  }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1622505871379,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -333,9 +333,9 @@\n    .join-now{\r\n       margin-top: 70px;\r\n \r\n       button{\r\n-         height: 2em;\r\n-         width: 300px;\r\n+         height: 1.5em;\r\n+         width: 200px;\r\n       }\r\n    }\r\n  }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1622505899596,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -334,8 +334,9 @@\n       margin-top: 70px;\r\n \r\n       button{\r\n          height: 1.5em;\r\n-         width: 200px;\r\n+         width: 250px;\r\n+         font-size: 2em;\r\n       }\r\n    }\r\n  }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1622505907618,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -335,8 +335,8 @@\n \r\n       button{\r\n          height: 1.5em;\r\n          width: 250px;\r\n-         font-size: 2em;\r\n+         font-size: 1.5em;\r\n       }\r\n    }\r\n  }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1622505936206,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -334,9 +334,9 @@\n       margin-top: 70px;\r\n \r\n       button{\r\n          height: 1.5em;\r\n-         width: 250px;\r\n+         width: 230px;\r\n          font-size: 1.5em;\r\n       }\r\n    }\r\n  }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1622506049487,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -333,9 +333,9 @@\n    .join-now{\r\n       margin-top: 70px;\r\n \r\n       button{\r\n-         height: 1.5em;\r\n+         height: 1.7em;\r\n          width: 230px;\r\n          font-size: 1.5em;\r\n       }\r\n    }\r\n"
+                },
+                {
+                    "date": 1622506056609,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -333,9 +333,9 @@\n    .join-now{\r\n       margin-top: 70px;\r\n \r\n       button{\r\n-         height: 1.7em;\r\n+         height: 1.9em;\r\n          width: 230px;\r\n          font-size: 1.5em;\r\n       }\r\n    }\r\n"
+                },
+                {
+                    "date": 1622506094303,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -336,7 +336,8 @@\n       button{\r\n          height: 1.9em;\r\n          width: 230px;\r\n          font-size: 1.5em;\r\n+         border-radius: 15px;\r\n       }\r\n    }\r\n  }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1622506175525,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -327,8 +327,9 @@\n       height: 17vw;\r\n    }\r\n    .spin-machine_prize{\r\n       width: 22vw !important;\r\n+      margin-top: -10px;\r\n    }\r\n \r\n    .join-now{\r\n       margin-top: 70px;\r\n@@ -336,8 +337,8 @@\n       button{\r\n          height: 1.9em;\r\n          width: 230px;\r\n          font-size: 1.5em;\r\n-         border-radius: 15px;\r\n+         border-radius: 10px;\r\n       }\r\n    }\r\n  }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1622506187073,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -327,9 +327,9 @@\n       height: 17vw;\r\n    }\r\n    .spin-machine_prize{\r\n       width: 22vw !important;\r\n-      margin-top: -10px;\r\n+\r\n    }\r\n \r\n    .join-now{\r\n       margin-top: 70px;\r\n"
+                },
+                {
+                    "date": 1622506197040,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -319,8 +319,9 @@\n       .spin-machine{\r\n          // height: 40vw;\r\n          max-width: 100%;\r\n          height: 42vw;\r\n+         margin-top: -10px;\r\n       }\r\n    }\r\n \r\n    .outer{\r\n"
+                },
+                {
+                    "date": 1622506215765,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -340,6 +340,9 @@\n          width: 230px;\r\n          font-size: 1.5em;\r\n          border-radius: 10px;\r\n       }\r\n+      p{\r\n+         \r\n+      }\r\n    }\r\n  }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1622506228533,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -231,10 +231,10 @@\n       margin-top: 10px;\r\n       margin-bottom: 50px;\r\n       font-family:'Times New Roman', Times, serif;\r\n       font-weight: 900;\r\n-         color: rgb(117, 77, 101);\r\n-         text-shadow: 2px 1px rgb(255, 255, 255);\r\n+      color: rgb(117, 77, 101);\r\n+      text-shadow: 2px 1px rgb(255, 255, 255);\r\n    }\r\n \r\n }\r\n .slot {\r\n@@ -341,8 +341,8 @@\n          font-size: 1.5em;\r\n          border-radius: 10px;\r\n       }\r\n       p{\r\n-         \r\n+\r\n       }\r\n    }\r\n  }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1622506260459,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -341,8 +341,8 @@\n          font-size: 1.5em;\r\n          border-radius: 10px;\r\n       }\r\n       p{\r\n-\r\n+         font-size: 7px;\r\n       }\r\n    }\r\n  }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1622506290123,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -341,8 +341,9 @@\n          font-size: 1.5em;\r\n          border-radius: 10px;\r\n       }\r\n       p{\r\n-         font-size: 7px;\r\n+         font-size: 6px;\r\n+         margin-bottom: 50px;\r\n       }\r\n    }\r\n  }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1622506297235,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -341,9 +341,9 @@\n          font-size: 1.5em;\r\n          border-radius: 10px;\r\n       }\r\n       p{\r\n-         font-size: 6px;\r\n+         font-size: 7px;\r\n          margin-bottom: 50px;\r\n       }\r\n    }\r\n  }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1622506304943,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -341,9 +341,9 @@\n          font-size: 1.5em;\r\n          border-radius: 10px;\r\n       }\r\n       p{\r\n-         font-size: 7px;\r\n-         margin-bottom: 50px;\r\n+         font-size: 6px;\r\n+         margin-bottom: 30px;\r\n       }\r\n    }\r\n  }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1622506594052,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -342,8 +342,8 @@\n          border-radius: 10px;\r\n       }\r\n       p{\r\n          font-size: 6px;\r\n-         margin-bottom: 30px;\r\n+         margin-bottom: 10px;\r\n       }\r\n    }\r\n  }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1622507152988,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -342,8 +342,12 @@\n          border-radius: 10px;\r\n       }\r\n       p{\r\n          font-size: 6px;\r\n-         margin-bottom: 10px;\r\n+         margin-bottom: 5px;\r\n       }\r\n    }\r\n+\r\n+   .footer_Nav{\r\n+      \r\n+   }\r\n  }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1622507164975,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -347,7 +347,7 @@\n       }\r\n    }\r\n \r\n    .footer_Nav{\r\n-      \r\n+      color: white;\r\n    }\r\n  }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1622507192322,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -347,7 +347,10 @@\n       }\r\n    }\r\n \r\n    .footer_Nav{\r\n+      a{\r\n+         color: white;\r\n+      }\r\n       color: white;\r\n    }\r\n  }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1622507254793,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -279,8 +279,11 @@\n    100% {margin-top: -140vh;}\r\n    \r\n  }\r\n \r\n+ .footer_Nav{\r\n+    display: none;\r\n+ }\r\n \r\n  @media only screen and (max-width: 600px) {\r\n    .background{\r\n       background-image: url('../assets/main-background_mobile.jpg');\r\n@@ -350,7 +353,6 @@\n    .footer_Nav{\r\n       a{\r\n          color: white;\r\n       }\r\n-      color: white;\r\n    }\r\n  }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1622507263667,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -350,8 +350,9 @@\n       }\r\n    }\r\n \r\n    .footer_Nav{\r\n+      display: block;\r\n       a{\r\n          color: white;\r\n       }\r\n    }\r\n"
+                },
+                {
+                    "date": 1622507285885,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -353,7 +353,8 @@\n    .footer_Nav{\r\n       display: block;\r\n       a{\r\n          color: white;\r\n+         font-size: 10px;\r\n       }\r\n    }\r\n  }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1622507294165,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -353,8 +353,8 @@\n    .footer_Nav{\r\n       display: block;\r\n       a{\r\n          color: white;\r\n-         font-size: 10px;\r\n+         font-size: 13px;\r\n       }\r\n    }\r\n  }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1622507304486,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -353,8 +353,9 @@\n    .footer_Nav{\r\n       display: block;\r\n       a{\r\n          color: white;\r\n-         font-size: 13px;\r\n+         font-size: 14px;\r\n+         list-style: none;\r\n       }\r\n    }\r\n  }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1622507325906,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -354,8 +354,8 @@\n       display: block;\r\n       a{\r\n          color: white;\r\n          font-size: 14px;\r\n-         list-style: none;\r\n+         text-decoration: none;\r\n       }\r\n    }\r\n  }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1622507341617,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -351,8 +351,9 @@\n    }\r\n \r\n    .footer_Nav{\r\n       display: block;\r\n+      height: 300px;\r\n       a{\r\n          color: white;\r\n          font-size: 14px;\r\n          text-decoration: none;\r\n"
+                },
+                {
+                    "date": 1622507358098,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -352,8 +352,11 @@\n \r\n    .footer_Nav{\r\n       display: block;\r\n       height: 300px;\r\n+      li{\r\n+         display: inline-block;\r\n+      }\r\n       a{\r\n          color: white;\r\n          font-size: 14px;\r\n          text-decoration: none;\r\n"
+                },
+                {
+                    "date": 1622507370452,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -351,9 +351,9 @@\n    }\r\n \r\n    .footer_Nav{\r\n       display: block;\r\n-      height: 300px;\r\n+      height: 100px;\r\n       li{\r\n          display: inline-block;\r\n       }\r\n       a{\r\n"
+                },
+                {
+                    "date": 1622507376352,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -351,9 +351,9 @@\n    }\r\n \r\n    .footer_Nav{\r\n       display: block;\r\n-      height: 100px;\r\n+      height: 50px;\r\n       li{\r\n          display: inline-block;\r\n       }\r\n       a{\r\n"
+                },
+                {
+                    "date": 1622507400895,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -351,9 +351,9 @@\n    }\r\n \r\n    .footer_Nav{\r\n       display: block;\r\n-      height: 50px;\r\n+      height: 10px;\r\n       li{\r\n          display: inline-block;\r\n       }\r\n       a{\r\n"
+                },
+                {
+                    "date": 1622507419537,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -352,8 +352,11 @@\n \r\n    .footer_Nav{\r\n       display: block;\r\n       height: 10px;\r\n+      -webkit-column-count: 3;\r\n+      -moz-column-count: 3;\r\n+           column-count: 3;\r\n       li{\r\n          display: inline-block;\r\n       }\r\n       a{\r\n"
+                },
+                {
+                    "date": 1622507429483,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -351,9 +351,9 @@\n    }\r\n \r\n    .footer_Nav{\r\n       display: block;\r\n-      height: 10px;\r\n+      height: 100px;\r\n       -webkit-column-count: 3;\r\n       -moz-column-count: 3;\r\n            column-count: 3;\r\n       li{\r\n"
+                },
+                {
+                    "date": 1622507451627,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -351,9 +351,9 @@\n    }\r\n \r\n    .footer_Nav{\r\n       display: block;\r\n-      height: 100px;\r\n+      height: 200px;\r\n       -webkit-column-count: 3;\r\n       -moz-column-count: 3;\r\n            column-count: 3;\r\n       li{\r\n"
+                },
+                {
+                    "date": 1622507513980,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -351,9 +351,9 @@\n    }\r\n \r\n    .footer_Nav{\r\n       display: block;\r\n-      height: 200px;\r\n+      height: 100px;\r\n       -webkit-column-count: 3;\r\n       -moz-column-count: 3;\r\n            column-count: 3;\r\n       li{\r\n"
+                },
+                {
+                    "date": 1622507521127,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -351,9 +351,9 @@\n    }\r\n \r\n    .footer_Nav{\r\n       display: block;\r\n-      height: 100px;\r\n+      height: 50px;\r\n       -webkit-column-count: 3;\r\n       -moz-column-count: 3;\r\n            column-count: 3;\r\n       li{\r\n"
+                },
+                {
+                    "date": 1622507544900,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -351,9 +351,9 @@\n    }\r\n \r\n    .footer_Nav{\r\n       display: block;\r\n-      height: 50px;\r\n+      height: 60px;\r\n       -webkit-column-count: 3;\r\n       -moz-column-count: 3;\r\n            column-count: 3;\r\n       li{\r\n"
+                },
+                {
+                    "date": 1622507569383,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -351,9 +351,9 @@\n    }\r\n \r\n    .footer_Nav{\r\n       display: block;\r\n-      height: 60px;\r\n+      height: 30px;\r\n       -webkit-column-count: 3;\r\n       -moz-column-count: 3;\r\n            column-count: 3;\r\n       li{\r\n"
+                },
+                {
+                    "date": 1622507589342,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -351,9 +351,9 @@\n    }\r\n \r\n    .footer_Nav{\r\n       display: block;\r\n-      height: 30px;\r\n+      height: 300px;\r\n       -webkit-column-count: 3;\r\n       -moz-column-count: 3;\r\n            column-count: 3;\r\n       li{\r\n"
+                },
+                {
+                    "date": 1622507615246,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -350,9 +350,9 @@\n       }\r\n    }\r\n \r\n    .footer_Nav{\r\n-      display: block;\r\n+      // display: block;\r\n       height: 300px;\r\n       -webkit-column-count: 3;\r\n       -moz-column-count: 3;\r\n            column-count: 3;\r\n"
+                },
+                {
+                    "date": 1622507627329,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -350,13 +350,13 @@\n       }\r\n    }\r\n \r\n    .footer_Nav{\r\n-      // display: block;\r\n+      display: block;\r\n       height: 300px;\r\n-      -webkit-column-count: 3;\r\n-      -moz-column-count: 3;\r\n-           column-count: 3;\r\n+      -webkit-column-count: 4;\r\n+      -moz-column-count: 4;\r\n+           column-count: 4;\r\n       li{\r\n          display: inline-block;\r\n       }\r\n       a{\r\n"
+                },
+                {
+                    "date": 1622507644970,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -351,9 +351,9 @@\n    }\r\n \r\n    .footer_Nav{\r\n       display: block;\r\n-      height: 300px;\r\n+      height: 200px;\r\n       -webkit-column-count: 4;\r\n       -moz-column-count: 4;\r\n            column-count: 4;\r\n       li{\r\n"
+                },
+                {
+                    "date": 1622507651610,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -351,9 +351,9 @@\n    }\r\n \r\n    .footer_Nav{\r\n       display: block;\r\n-      height: 200px;\r\n+      height: 50px;\r\n       -webkit-column-count: 4;\r\n       -moz-column-count: 4;\r\n            column-count: 4;\r\n       li{\r\n"
+                },
+                {
+                    "date": 1622507659706,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -351,9 +351,9 @@\n    }\r\n \r\n    .footer_Nav{\r\n       display: block;\r\n-      height: 50px;\r\n+      height: 70px;\r\n       -webkit-column-count: 4;\r\n       -moz-column-count: 4;\r\n            column-count: 4;\r\n       li{\r\n"
+                },
+                {
+                    "date": 1622507675269,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -360,9 +360,9 @@\n          display: inline-block;\r\n       }\r\n       a{\r\n          color: white;\r\n-         font-size: 14px;\r\n+         font-size: 12px;\r\n          text-decoration: none;\r\n       }\r\n    }\r\n  }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1622507693632,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -351,12 +351,14 @@\n    }\r\n \r\n    .footer_Nav{\r\n       display: block;\r\n+      align-items: center;\r\n       height: 70px;\r\n       -webkit-column-count: 4;\r\n       -moz-column-count: 4;\r\n            column-count: 4;\r\n+           \r\n       li{\r\n          display: inline-block;\r\n       }\r\n       a{\r\n"
+                },
+                {
+                    "date": 1622507699188,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -351,9 +351,9 @@\n    }\r\n \r\n    .footer_Nav{\r\n       display: block;\r\n-      align-items: center;\r\n+      width: 100%;\r\n       height: 70px;\r\n       -webkit-column-count: 4;\r\n       -moz-column-count: 4;\r\n            column-count: 4;\r\n"
+                },
+                {
+                    "date": 1622507706128,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -352,8 +352,9 @@\n \r\n    .footer_Nav{\r\n       display: block;\r\n       width: 100%;\r\n+      margin-top: auto;\r\n       height: 70px;\r\n       -webkit-column-count: 4;\r\n       -moz-column-count: 4;\r\n            column-count: 4;\r\n"
+                },
+                {
+                    "date": 1622507832731,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -352,9 +352,9 @@\n \r\n    .footer_Nav{\r\n       display: block;\r\n       width: 100%;\r\n-      margin-top: auto;\r\n+      margin: auto;\r\n       height: 70px;\r\n       -webkit-column-count: 4;\r\n       -moz-column-count: 4;\r\n            column-count: 4;\r\n@@ -363,9 +363,9 @@\n          display: inline-block;\r\n       }\r\n       a{\r\n          color: white;\r\n-         font-size: 12px;\r\n+         font-size: 10px;\r\n          text-decoration: none;\r\n       }\r\n    }\r\n  }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1622507848042,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -354,11 +354,11 @@\n       display: block;\r\n       width: 100%;\r\n       margin: auto;\r\n       height: 70px;\r\n-      -webkit-column-count: 4;\r\n-      -moz-column-count: 4;\r\n-           column-count: 4;\r\n+      -webkit-column-count: 3;\r\n+      -moz-column-count: 3;\r\n+           column-count: 3;\r\n            \r\n       li{\r\n          display: inline-block;\r\n       }\r\n"
+                },
+                {
+                    "date": 1622507886325,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -353,8 +353,9 @@\n    .footer_Nav{\r\n       display: block;\r\n       width: 100%;\r\n       margin: auto;\r\n+      \r\n       height: 70px;\r\n       -webkit-column-count: 3;\r\n       -moz-column-count: 3;\r\n            column-count: 3;\r\n"
+                },
+                {
+                    "date": 1622507898043,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -353,13 +353,17 @@\n    .footer_Nav{\r\n       display: block;\r\n       width: 100%;\r\n       margin: auto;\r\n-      \r\n+\r\n       height: 70px;\r\n       -webkit-column-count: 3;\r\n       -moz-column-count: 3;\r\n            column-count: 3;\r\n+      \r\n+      ul{\r\n+\r\n+           }\r\n            \r\n       li{\r\n          display: inline-block;\r\n       }\r\n"
+                },
+                {
+                    "date": 1622507908472,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -354,15 +354,14 @@\n       display: block;\r\n       width: 100%;\r\n       margin: auto;\r\n \r\n-      height: 70px;\r\n-      -webkit-column-count: 3;\r\n-      -moz-column-count: 3;\r\n-           column-count: 3;\r\n       \r\n       ul{\r\n-\r\n+         height: 70px;\r\n+         -webkit-column-count: 3;\r\n+         -moz-column-count: 3;\r\n+              column-count: 3;\r\n            }\r\n            \r\n       li{\r\n          display: inline-block;\r\n"
+                },
+                {
+                    "date": 1622507939166,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -356,9 +356,9 @@\n       margin: auto;\r\n \r\n       \r\n       ul{\r\n-         height: 70px;\r\n+         height: 0px;\r\n          -webkit-column-count: 3;\r\n          -moz-column-count: 3;\r\n               column-count: 3;\r\n            }\r\n"
+                },
+                {
+                    "date": 1622507946900,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -356,9 +356,9 @@\n       margin: auto;\r\n \r\n       \r\n       ul{\r\n-         height: 0px;\r\n+         height:0px;\r\n          -webkit-column-count: 3;\r\n          -moz-column-count: 3;\r\n               column-count: 3;\r\n            }\r\n"
+                },
+                {
+                    "date": 1622507953774,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -356,9 +356,9 @@\n       margin: auto;\r\n \r\n       \r\n       ul{\r\n-         height:0px;\r\n+         height:10px;\r\n          -webkit-column-count: 3;\r\n          -moz-column-count: 3;\r\n               column-count: 3;\r\n            }\r\n"
+                },
+                {
+                    "date": 1622507965969,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -356,12 +356,12 @@\n       margin: auto;\r\n \r\n       \r\n       ul{\r\n-         height:10px;\r\n-         -webkit-column-count: 3;\r\n-         -moz-column-count: 3;\r\n-              column-count: 3;\r\n+         height:100px;\r\n+         -webkit-column-count: 4;\r\n+         -moz-column-count: 4;\r\n+              column-count: 4;\r\n            }\r\n            \r\n       li{\r\n          display: inline-block;\r\n"
+                },
+                {
+                    "date": 1622507972680,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -357,11 +357,11 @@\n \r\n       \r\n       ul{\r\n          height:100px;\r\n-         -webkit-column-count: 4;\r\n-         -moz-column-count: 4;\r\n-              column-count: 4;\r\n+         -webkit-column-count: 3;\r\n+         -moz-column-count: 3;\r\n+              column-count: 3;\r\n            }\r\n            \r\n       li{\r\n          display: inline-block;\r\n"
+                },
+                {
+                    "date": 1622507990255,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -356,8 +356,9 @@\n       margin: auto;\r\n \r\n       \r\n       ul{\r\n+         margin-top: 30px;\r\n          height:100px;\r\n          -webkit-column-count: 3;\r\n          -moz-column-count: 3;\r\n               column-count: 3;\r\n"
+                },
+                {
+                    "date": 1622507997505,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -352,9 +352,9 @@\n \r\n    .footer_Nav{\r\n       display: block;\r\n       width: 100%;\r\n-      margin: auto;\r\n+      // margin: auto;\r\n \r\n       \r\n       ul{\r\n          margin-top: 30px;\r\n"
+                },
+                {
+                    "date": 1622508151508,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -352,15 +352,15 @@\n \r\n    .footer_Nav{\r\n       display: block;\r\n       width: 100%;\r\n-      // margin: auto;\r\n+      margin: auto;\r\n \r\n       \r\n       ul{\r\n          margin-top: 30px;\r\n          height:100px;\r\n-         -webkit-column-count: 3;\r\n+         -webkit-column-count: 4;\r\n          -moz-column-count: 3;\r\n               column-count: 3;\r\n            }\r\n            \r\n"
+                },
+                {
+                    "date": 1622508159629,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -358,9 +358,9 @@\n       \r\n       ul{\r\n          margin-top: 30px;\r\n          height:100px;\r\n-         -webkit-column-count: 4;\r\n+         -webkit-column-count: 3;\r\n          -moz-column-count: 3;\r\n               column-count: 3;\r\n            }\r\n            \r\n"
+                },
+                {
+                    "date": 1622508229368,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -364,9 +364,9 @@\n               column-count: 3;\r\n            }\r\n            \r\n       li{\r\n-         display: inline-block;\r\n+         // display: inline-block;\r\n       }\r\n       a{\r\n          color: white;\r\n          font-size: 10px;\r\n"
+                },
+                {
+                    "date": 1622508247232,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -368,9 +368,9 @@\n          // display: inline-block;\r\n       }\r\n       a{\r\n          color: white;\r\n-         font-size: 10px;\r\n+         font-size: 12px;\r\n          text-decoration: none;\r\n       }\r\n    }\r\n  }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1622508276634,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -368,9 +368,9 @@\n          // display: inline-block;\r\n       }\r\n       a{\r\n          color: white;\r\n-         font-size: 12px;\r\n+         font-size: 10px;\r\n          text-decoration: none;\r\n       }\r\n    }\r\n  }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1622508285464,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -356,9 +356,9 @@\n       margin: auto;\r\n \r\n       \r\n       ul{\r\n-         margin-top: 30px;\r\n+         // margin-top: 30px;\r\n          height:100px;\r\n          -webkit-column-count: 3;\r\n          -moz-column-count: 3;\r\n               column-count: 3;\r\n"
+                },
+                {
+                    "date": 1622508292555,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -356,10 +356,10 @@\n       margin: auto;\r\n \r\n       \r\n       ul{\r\n-         // margin-top: 30px;\r\n-         height:100px;\r\n+         margin-top: 30px;\r\n+         height:10px;\r\n          -webkit-column-count: 3;\r\n          -moz-column-count: 3;\r\n               column-count: 3;\r\n            }\r\n"
+                },
+                {
+                    "date": 1622508299181,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -357,9 +357,9 @@\n \r\n       \r\n       ul{\r\n          margin-top: 30px;\r\n-         height:10px;\r\n+         height:40px;\r\n          -webkit-column-count: 3;\r\n          -moz-column-count: 3;\r\n               column-count: 3;\r\n            }\r\n"
+                },
+                {
+                    "date": 1622508332625,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -290,9 +290,9 @@\n       background-repeat: no-repeat;\r\n       // background-position: center center;\r\n       // background-attachment: fixed;\r\n       background-size: cover;\r\n-      height: 100vh;\r\n+      // height: 100vh;\r\n    }\r\n \r\n    .mobile-view{\r\n       display: block;\r\n"
+                },
+                {
+                    "date": 1622508406818,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -155,11 +155,8 @@\n    }\r\n \r\n }\r\n \r\n-\r\n-\r\n-\r\n .Animated-slot{\r\n    position: absolute;\r\n    top: -50px;\r\n    left: 50px;\r\n"
+                },
+                {
+                    "date": 1622508569986,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -346,8 +346,11 @@\n          margin-bottom: 5px;\r\n       }\r\n    }\r\n \r\n+   .footer{\r\n+      \r\n+   }\r\n    .footer_Nav{\r\n       display: block;\r\n       width: 100%;\r\n       margin: auto;\r\n"
+                },
+                {
+                    "date": 1622508613562,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -347,9 +347,9 @@\n       }\r\n    }\r\n \r\n    .footer{\r\n-      \r\n+      height: 300px;\r\n    }\r\n    .footer_Nav{\r\n       display: block;\r\n       width: 100%;\r\n"
+                },
+                {
+                    "date": 1622508629816,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -347,9 +347,9 @@\n       }\r\n    }\r\n \r\n    .footer{\r\n-      height: 300px;\r\n+      height: 250px;\r\n    }\r\n    .footer_Nav{\r\n       display: block;\r\n       width: 100%;\r\n"
+                },
+                {
+                    "date": 1622509182439,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -363,11 +363,9 @@\n          -moz-column-count: 3;\r\n               column-count: 3;\r\n            }\r\n            \r\n-      li{\r\n-         // display: inline-block;\r\n-      }\r\n+\r\n       a{\r\n          color: white;\r\n          font-size: 10px;\r\n          text-decoration: none;\r\n"
+                },
+                {
+                    "date": 1622509221854,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -280,8 +280,12 @@\n  .footer_Nav{\r\n     display: none;\r\n  }\r\n \r\n+ .mobile_Logos1, .mobile_Logos2{\r\n+\r\n+ }\r\n+\r\n  @media only screen and (max-width: 600px) {\r\n    .background{\r\n       background-image: url('../assets/main-background_mobile.jpg');\r\n       background-repeat: no-repeat;\r\n@@ -370,5 +374,6 @@\n          font-size: 10px;\r\n          text-decoration: none;\r\n       }\r\n    }\r\n+   ini\r\n  }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1622509232315,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -281,9 +281,9 @@\n     display: none;\r\n  }\r\n \r\n  .mobile_Logos1, .mobile_Logos2{\r\n-\r\n+   display: none;\r\n  }\r\n \r\n  @media only screen and (max-width: 600px) {\r\n    .background{\r\n"
+                },
+                {
+                    "date": 1622509252234,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -374,6 +374,8 @@\n          font-size: 10px;\r\n          text-decoration: none;\r\n       }\r\n    }\r\n-   ini\r\n+   .initial_logos{\r\n+      display: none;\r\n+   }\r\n  }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1622509258637,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -375,7 +375,7 @@\n          text-decoration: none;\r\n       }\r\n    }\r\n    .initial_logos{\r\n-      display: none;\r\n+      // display: none;\r\n    }\r\n  }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1622509277254,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -374,8 +374,8 @@\n          font-size: 10px;\r\n          text-decoration: none;\r\n       }\r\n    }\r\n-   .initial_logos{\r\n-      // display: none;\r\n+   .initial_Logos{\r\n+      display: none;\r\n    }\r\n  }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1622509318442,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -377,5 +377,6 @@\n    }\r\n    .initial_Logos{\r\n       display: none;\r\n    }\r\n+   \r\n  }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1622509349548,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -377,6 +377,9 @@\n    }\r\n    .initial_Logos{\r\n       display: none;\r\n    }\r\n-   \r\n+\r\n+   .mobile_Logos1, .mobile_Logos2{\r\n+      display: block;\r\n+   }\r\n  }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1622509359156,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -379,7 +379,7 @@\n       display: none;\r\n    }\r\n \r\n    .mobile_Logos1, .mobile_Logos2{\r\n-      display: block;\r\n+      display: inline-block;\r\n    }\r\n  }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1622509367666,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -379,7 +379,7 @@\n       display: none;\r\n    }\r\n \r\n    .mobile_Logos1, .mobile_Logos2{\r\n-      display: inline-block;\r\n+      display: block;\r\n    }\r\n  }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1622509378451,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -380,6 +380,7 @@\n    }\r\n \r\n    .mobile_Logos1, .mobile_Logos2{\r\n       display: block;\r\n+      float: left;\r\n    }\r\n  }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1622509527671,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -378,9 +378,12 @@\n    .initial_Logos{\r\n       display: none;\r\n    }\r\n \r\n+   .mobile_Logo{\r\n+      display: block;\r\n+   }\r\n+\r\n    .mobile_Logos1, .mobile_Logos2{\r\n       display: block;\r\n-      float: left;\r\n    }\r\n  }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1622509662356,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -352,8 +352,12 @@\n    }\r\n \r\n    .footer{\r\n       height: 250px;\r\n+\r\n+      img{\r\n+         margin-top: 5px;\r\n+      }\r\n    }\r\n    .footer_Nav{\r\n       display: block;\r\n       width: 100%;\r\n"
+                },
+                {
+                    "date": 1622509672116,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -355,8 +355,9 @@\n       height: 250px;\r\n \r\n       img{\r\n          margin-top: 5px;\r\n+         height: 200px;\r\n       }\r\n    }\r\n    .footer_Nav{\r\n       display: block;\r\n"
+                },
+                {
+                    "date": 1622509682314,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -355,9 +355,9 @@\n       height: 250px;\r\n \r\n       img{\r\n          margin-top: 5px;\r\n-         height: 200px;\r\n+         width: 200px;\r\n       }\r\n    }\r\n    .footer_Nav{\r\n       display: block;\r\n"
+                },
+                {
+                    "date": 1622509720696,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -355,9 +355,10 @@\n       height: 250px;\r\n \r\n       img{\r\n          margin-top: 5px;\r\n-         width: 200px;\r\n+         width: 40%;\r\n+         height: 2vw;\r\n       }\r\n    }\r\n    .footer_Nav{\r\n       display: block;\r\n"
+                },
+                {
+                    "date": 1622509732256,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -355,10 +355,10 @@\n       height: 250px;\r\n \r\n       img{\r\n          margin-top: 5px;\r\n-         width: 40%;\r\n-         height: 2vw;\r\n+         width: 80%;\r\n+         height: 4vw;\r\n       }\r\n    }\r\n    .footer_Nav{\r\n       display: block;\r\n"
+                },
+                {
+                    "date": 1622509755696,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -356,9 +356,9 @@\n \r\n       img{\r\n          margin-top: 5px;\r\n          width: 80%;\r\n-         height: 4vw;\r\n+         height: 5vw;\r\n       }\r\n    }\r\n    .footer_Nav{\r\n       display: block;\r\n@@ -367,9 +367,9 @@\n \r\n       \r\n       ul{\r\n          margin-top: 30px;\r\n-         height:40px;\r\n+         height:auto;\r\n          -webkit-column-count: 3;\r\n          -moz-column-count: 3;\r\n               column-count: 3;\r\n            }\r\n"
+                },
+                {
+                    "date": 1622509766768,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -367,9 +367,9 @@\n \r\n       \r\n       ul{\r\n          margin-top: 30px;\r\n-         height:auto;\r\n+         height:40px;\r\n          -webkit-column-count: 3;\r\n          -moz-column-count: 3;\r\n               column-count: 3;\r\n            }\r\n"
+                },
+                {
+                    "date": 1622509803015,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -356,9 +356,9 @@\n \r\n       img{\r\n          margin-top: 5px;\r\n          width: 80%;\r\n-         height: 5vw;\r\n+         height: auto;\r\n       }\r\n    }\r\n    .footer_Nav{\r\n       display: block;\r\n@@ -386,8 +386,9 @@\n    }\r\n \r\n    .mobile_Logo{\r\n       display: block;\r\n+      margin-top: 10px;\r\n    }\r\n \r\n    .mobile_Logos1, .mobile_Logos2{\r\n       display: block;\r\n"
+                },
+                {
+                    "date": 1622509812135,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -386,9 +386,9 @@\n    }\r\n \r\n    .mobile_Logo{\r\n       display: block;\r\n-      margin-top: 10px;\r\n+      margin-top: 15px;\r\n    }\r\n \r\n    .mobile_Logos1, .mobile_Logos2{\r\n       display: block;\r\n"
+                },
+                {
+                    "date": 1622509820588,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -387,8 +387,9 @@\n \r\n    .mobile_Logo{\r\n       display: block;\r\n       margin-top: 15px;\r\n+      margin-bottom: 15px;\r\n    }\r\n \r\n    .mobile_Logos1, .mobile_Logos2{\r\n       display: block;\r\n"
+                },
+                {
+                    "date": 1622509828204,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -387,9 +387,9 @@\n \r\n    .mobile_Logo{\r\n       display: block;\r\n       margin-top: 15px;\r\n-      margin-bottom: 15px;\r\n+      margin-bottom: 25px;\r\n    }\r\n \r\n    .mobile_Logos1, .mobile_Logos2{\r\n       display: block;\r\n"
+                },
+                {
+                    "date": 1622509856994,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -358,8 +358,11 @@\n          margin-top: 5px;\r\n          width: 80%;\r\n          height: auto;\r\n       }\r\n+      p{\r\n+         \r\n+      }\r\n    }\r\n    .footer_Nav{\r\n       display: block;\r\n       width: 100%;\r\n"
+                },
+                {
+                    "date": 1622509863546,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -359,9 +359,9 @@\n          width: 80%;\r\n          height: auto;\r\n       }\r\n       p{\r\n-         \r\n+         font-size: 8px;\r\n       }\r\n    }\r\n    .footer_Nav{\r\n       display: block;\r\n"
+                },
+                {
+                    "date": 1622509894297,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -360,8 +360,9 @@\n          height: auto;\r\n       }\r\n       p{\r\n          font-size: 8px;\r\n+         margin-bottom: 20px;\r\n       }\r\n    }\r\n    .footer_Nav{\r\n       display: block;\r\n"
+                },
+                {
+                    "date": 1622509904237,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -360,9 +360,8 @@\n          height: auto;\r\n       }\r\n       p{\r\n          font-size: 8px;\r\n-         margin-bottom: 20px;\r\n       }\r\n    }\r\n    .footer_Nav{\r\n       display: block;\r\n"
+                },
+                {
+                    "date": 1622509909849,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -351,9 +351,9 @@\n       }\r\n    }\r\n \r\n    .footer{\r\n-      height: 250px;\r\n+      height: 300px;\r\n \r\n       img{\r\n          margin-top: 5px;\r\n          width: 80%;\r\n"
+                },
+                {
+                    "date": 1622509994370,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -353,15 +353,20 @@\n \r\n    .footer{\r\n       height: 300px;\r\n \r\n+      .footer_Text{\r\n+         \r\n+      }\r\n+\r\n       img{\r\n          margin-top: 5px;\r\n          width: 80%;\r\n          height: auto;\r\n       }\r\n       p{\r\n          font-size: 8px;\r\n+\r\n       }\r\n    }\r\n    .footer_Nav{\r\n       display: block;\r\n"
+                },
+                {
+                    "date": 1622510002899,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -354,9 +354,9 @@\n    .footer{\r\n       height: 300px;\r\n \r\n       .footer_Text{\r\n-         \r\n+         width: 80%\r\n       }\r\n \r\n       img{\r\n          margin-top: 5px;\r\n"
+                },
+                {
+                    "date": 1622510019092,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -354,9 +354,9 @@\n    .footer{\r\n       height: 300px;\r\n \r\n       .footer_Text{\r\n-         width: 80%\r\n+         width: 60%\r\n       }\r\n \r\n       img{\r\n          margin-top: 5px;\r\n"
+                },
+                {
+                    "date": 1622510041475,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -354,9 +354,9 @@\n    .footer{\r\n       height: 300px;\r\n \r\n       .footer_Text{\r\n-         width: 60%\r\n+         // width: 60%\r\n       }\r\n \r\n       img{\r\n          margin-top: 5px;\r\n"
+                },
+                {
+                    "date": 1622510066997,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -354,9 +354,10 @@\n    .footer{\r\n       height: 300px;\r\n \r\n       .footer_Text{\r\n-         // width: 60%\r\n+         text-align: center;\r\n+         width: 60%\r\n       }\r\n \r\n       img{\r\n          margin-top: 5px;\r\n"
+                },
+                {
+                    "date": 1622510111303,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -354,9 +354,9 @@\n    .footer{\r\n       height: 300px;\r\n \r\n       .footer_Text{\r\n-         text-align: center;\r\n+         margin: auto;\r\n          width: 60%\r\n       }\r\n \r\n       img{\r\n"
+                },
+                {
+                    "date": 1622510118460,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,406 @@\n+// Reset CSS \r\n+\r\n+*, *:before, *:after{\r\n+   box-sizing: border-box;\r\n+}\r\n+\r\n+html, body, div, span, object, iframe, figure, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, code, em, img, small, strike, strong, sub, sup, tt, b, u, i, ol, ul, li, fieldset, form, label, table, caption, tbody, tfoot, thead, tr, th, td, main, canvas, embed, footer, header, nav, section, video{\r\n+   margin: 0;\r\n+   padding: 0;\r\n+   border: 0;\r\n+   font-size: 100%;\r\n+   font: inherit;\r\n+   vertical-align: baseline;\r\n+   text-rendering: optimizeLegibility;\r\n+   -webkit-font-smoothing: antialiased;\r\n+   text-size-adjust: none;\r\n+}\r\n+\r\n+footer, header, nav, section, main{\r\n+   display: block;\r\n+}\r\n+\r\n+body{\r\n+   line-height: 1;\r\n+}\r\n+\r\n+ol, ul{\r\n+   list-style: none;\r\n+}\r\n+\r\n+blockquote, q{\r\n+   quotes: none;\r\n+}\r\n+\r\n+blockquote:before, blockquote:after, q:before, q:after{\r\n+   content: '';\r\n+   content: none;\r\n+}\r\n+\r\n+table{\r\n+   border-collapse: collapse;\r\n+   border-spacing: 0;\r\n+}\r\n+\r\n+input{\r\n+   -webkit-appearance: none;\r\n+   border-radius: 0;\r\n+}\r\n+\r\n+// Reset CSS \r\n+\r\n+.background{\r\n+   background-image: url('../assets//main-background_desktop.jpg');\r\n+   background-repeat: no-repeat;\r\n+   // background-position: center center;\r\n+   // background-attachment: fixed;\r\n+   background-size: cover;\r\n+   // height: 100vh;\r\n+}\r\n+\r\n+.content{\r\n+   // height: 95vh;\r\n+}\r\n+\r\n+.footer{\r\n+   background-image: url('../assets/footer-background.jpg');\r\n+   background-repeat: no-repeat;\r\n+   background-size: cover;\r\n+   width: auto;\r\n+   height: 200px;\r\n+   text-align: center;\r\n+\r\n+   img{\r\n+      width: 40%;\r\n+      height: 2vw;\r\n+      // margin-top: 30px;\r\n+      // margin-left: auto;\r\n+      // margin-right: auto;\r\n+      // margin-bottom: 10px;\r\n+      margin: 30px auto 10px auto;\r\n+      \r\n+   }\r\n+   p{\r\n+      color: white;\r\n+      font-size: 10px;\r\n+      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;\r\n+   }\r\n+}\r\n+\r\n+.logo{\r\n+ display: block;\r\n+ text-align: center;\r\n+ \r\n+   img{\r\n+      height: 9vw;\r\n+      max-width: 100%;\r\n+      object-fit: contain;\r\n+      margin-top: 6%;\r\n+   }\r\n+}\r\n+\r\n+.main-offer_text{\r\n+   text-align: right;\r\n+   img{\r\n+   height: 15vw;\r\n+   max-width: 100%;\r\n+   object-fit: contain;\r\n+   }\r\n+}\r\n+\r\n+.main-offer_reel{\r\n+   position: relative;\r\n+   top: 0;\r\n+   left: 0;\r\n+   // z-index: 1;\r\n+   .spin-machine{\r\n+      // margin-top: -20px;\r\n+      margin: 0;\r\n+      // margin: -5% 0 0 100px;\r\n+      height: 22vw;\r\n+      max-width: 100%;\r\n+      object-fit: contain; \r\n+      -ms-transform: rotate(15deg); /* IE 9 */\r\n+      transform: rotate(15deg);\r\n+\r\n+\r\n+\r\n+      position: relative;\r\n+      top: 0;\r\n+      left: 0;\r\n+  \r\n+    z-index: 1;\r\n+      \r\n+      // z-index: 1;\r\n+   }\r\n+   .spin-machine_prize{\r\n+      // transform: rotate(1deg);\r\n+      // position: absolute;\r\n+   //    max-width: 100%;\r\n+   //  height: 42vw;\r\n+   width: 11vw;\r\n+   //  position: absolute;\r\n+   //  left: 9%;\r\n+   //    -ms-transform: rotate(15deg); /* IE 9 */\r\n+   //    transform: rotate(15deg);\r\n+      // position: relative;\r\n+      // left: -50%;\r\n+      // overflow: hidden;\r\n+      // z-index: -0;\r\n+\r\n+      // position: absolute;\r\n+      top: 30px;\r\n+      left: 30px;\r\n+      z-index: 999;\r\n+   }\r\n+\r\n+}\r\n+\r\n+.Animated-slot{\r\n+   position: absolute;\r\n+   top: -50px;\r\n+   left: 50px;\r\n+}\r\n+.outer {\r\n+   // background-color: red;\r\n+   -ms-transform: rotate(15deg); /* IE 9 */\r\n+      transform: rotate(15deg);\r\n+      height: 9vw;\r\n+   overflow: hidden;\r\n+   position: absolute;\r\n+   top: 55%;\r\n+   left: 12%;\r\n+}\r\n+\r\n+.inner {\r\n+   // display: inline-block;\r\n+   // position: relative;\r\n+   // right: -50%;\r\n+}\r\n+\r\n+@font-face {\r\n+   font-family:\"Komika\";\r\n+   src: url(\"../assets/komika.ttf\") format(\"truetype\");\r\n+ }\r\n+\r\n+.join-now{\r\n+   text-align: center;\r\n+   button{\r\n+      font-family:'Komika', Courier, monospace;\r\n+      // line-height: 50px;\r\n+\r\n+      color: rgb(160, 65, 7);\r\n+      font-size: 2em;\r\n+      border-radius: 15px;\r\n+      height: 2em;\r\n+      width: 300px;\r\n+\r\n+      \r\n+      // text-shadow: 2px 2px rgb(249, 204, 114);\r\n+      text-shadow: 0px 1px rgb(249, 204, 114);\r\n+      display: block;\r\n+      margin: auto;\r\n+      // margin-left: 20px;\r\n+ \r\n+\r\n+      display: table-cell; \r\n+      vertical-align: middle;\r\n+      padding-bottom: 10px;\r\n+      \r\n+      // margin-bottom: 200px;\r\n+      margin-top: 100px;\r\n+      // background: linear-gradient(0deg, rgb(247, 196, 46) 50%, rgb(255, 232, 89) 50%),linear-gradient(rgb(187, 25, 25), rgb(9, 233, 102)) no-repeat border-box;\r\n+      background: linear-gradient(0deg, rgb(247, 196, 46) 50%, rgb(255, 232, 89) 50%);\r\n+      // background: linear-gradient(90deg, rgb(25, 2, 89) 50%, rgb(255, 89, 139) 50%);\r\n+      border: none;\r\n+\r\n+      // box-shadow:  0 0 30px 0px rgb(244, 145, 32);\r\n+      // clip-path: inset(0px -15px 0px -15px);\r\n+      // box-shadow:  0 8px -8px black, 10px 0 8px -8px black;\r\n+\r\n+      box-shadow: inset 0px 10px 15px -5px rgb(250, 217, 52),inset 0px -15px 20px -5px rgb(240, 132, 8);\r\n+      // box-shadow: inset 0 8px 6px -6px black;\r\n+      // box-shadow: 12px 0 15px -4px rgba(31, 73, 125, 0.8), -12px 0 8px -4px rgba(31, 73, 125, 0.8);\r\n+      // box-shadow: inset 0px 0px 60px  rgb(21, 14, 5);\r\n+   }\r\n+   p{\r\n+      font-size: 8px;\r\n+      margin-top: 10px;\r\n+      margin-bottom: 50px;\r\n+      font-family:'Times New Roman', Times, serif;\r\n+      font-weight: 900;\r\n+      color: rgb(117, 77, 101);\r\n+      text-shadow: 2px 1px rgb(255, 255, 255);\r\n+   }\r\n+\r\n+}\r\n+.slot {\r\n+   // width: auto;\r\n+   // height: 100%;\r\n+   // overflow: hidden;\r\n+   // float: left;\r\n+   // margin-right: 2vh;\r\n+ }\r\n+ \r\n+ .slot .slot-inner .panel {\r\n+   background: red;\r\n+   width: 20vh;\r\n+   height: 20vh;\r\n+   text-align: center;\r\n+   margin-bottom: 2vh;\r\n+   color: #fff;\r\n+   font-family: Courier New;\r\n+   line-height: 20vh;\r\n+   font-size: 10vh;\r\n+ }\r\n+ \r\n+ .slot.first .slot-inner {\r\n+   animation: spin;\r\n+   animation-duration: 10s;\r\n+   animation-iteration-count: infinite;\r\n+   animation-timing-function: linear;\r\n+   // animation-play-state: paused;\r\n+   // animation-delay: 2s;\r\n+ }\r\n+ \r\n+ @keyframes spin {\r\n+   // from { margin-top: 0; }\r\n+   // to { margin-top: -174.6vh; }\r\n+\r\n+   // from { margin-top: -176; }\r\n+   // to { margin-top: -10vh; }\r\n+\r\n+   0%   {margin-top: 0;}\r\n+   40%  {margin-top: -140vh;}\r\n+   // 75% {margin-top:-100vh;}\r\n+   100% {margin-top: -140vh;}\r\n+   \r\n+ }\r\n+\r\n+ .footer_Nav{\r\n+    display: none;\r\n+ }\r\n+\r\n+ .mobile_Logos1, .mobile_Logos2{\r\n+   display: none;\r\n+ }\r\n+\r\n+ @media only screen and (max-width: 600px) {\r\n+   .background{\r\n+      background-image: url('../assets/main-background_mobile.jpg');\r\n+      background-repeat: no-repeat;\r\n+      // background-position: center center;\r\n+      // background-attachment: fixed;\r\n+      background-size: cover;\r\n+      // height: 100vh;\r\n+   }\r\n+\r\n+   .mobile-view{\r\n+      display: block;\r\n+   }\r\n+\r\n+   .logo{\r\n+        img{\r\n+           height: 30vw;\r\n+           max-width: 100%;\r\n+           margin-top: 15%;\r\n+        }\r\n+     }\r\n+\r\n+     .main-offer_text{\r\n+      // display: block;\r\n+      text-align: center;\r\n+      img{\r\n+      height: 35vw;\r\n+      max-width: 100%;\r\n+      margin-top: 20px;\r\n+      }\r\n+   }\r\n+\r\n+   .Animated-slot{\r\n+      top: 10px;\r\n+      left: 35%;\r\n+      .spin-machine{\r\n+         // height: 40vw;\r\n+         max-width: 100%;\r\n+         height: 42vw;\r\n+         margin-top: -10px;\r\n+      }\r\n+   }\r\n+\r\n+   .outer{\r\n+      height: 17vw;\r\n+   }\r\n+   .spin-machine_prize{\r\n+      width: 22vw !important;\r\n+\r\n+   }\r\n+\r\n+   .join-now{\r\n+      margin-top: 70px;\r\n+\r\n+      button{\r\n+         height: 1.9em;\r\n+         width: 230px;\r\n+         font-size: 1.5em;\r\n+         border-radius: 10px;\r\n+      }\r\n+      p{\r\n+         font-size: 6px;\r\n+         margin-bottom: 5px;\r\n+      }\r\n+   }\r\n+\r\n+   .footer{\r\n+      height: 300px;\r\n+\r\n+      .footer_Text{\r\n+         margin: auto;\r\n+         width: 60%\r\n+      }\r\n+\r\n+      img{\r\n+         margin-top: 5px;\r\n+         width: 80%;\r\n+         height: auto;\r\n+      }\r\n+      p{\r\n+         font-size: 8px;\r\n+\r\n+      }\r\n+   }\r\n+   .footer_Nav{\r\n+      display: block;\r\n+      width: 100%;\r\n+      margin: auto;\r\n+\r\n+      \r\n+      ul{\r\n+         margin-top: 30px;\r\n+         height:40px;\r\n+         -webkit-column-count: 3;\r\n+         -moz-column-count: 3;\r\n+              column-count: 3;\r\n+           }\r\n+           \r\n+\r\n+      a{\r\n+         color: white;\r\n+         font-size: 10px;\r\n+         text-decoration: none;\r\n+      }\r\n+   }\r\n+   .initial_Logos{\r\n+      display: none;\r\n+   }\r\n+\r\n+   .mobile_Logo{\r\n+      display: block;\r\n+      margin-top: 15px;\r\n+      margin-bottom: 25px;\r\n+   }\r\n+\r\n+   .mobile_Logos1, .mobile_Logos2{\r\n+      display: block;\r\n+   }\r\n+ }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1622510127562,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -355,9 +355,9 @@\n       height: 300px;\r\n \r\n       .footer_Text{\r\n          margin: auto;\r\n-         width: 60%\r\n+         width: 80%\r\n       }\r\n \r\n       img{\r\n          margin-top: 5px;\r\n@@ -402,411 +402,5 @@\n \r\n    .mobile_Logos1, .mobile_Logos2{\r\n       display: block;\r\n    }\r\n- }\n-// Reset CSS \r\n-\r\n-*, *:before, *:after{\r\n-   box-sizing: border-box;\r\n-}\r\n-\r\n-html, body, div, span, object, iframe, figure, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, code, em, img, small, strike, strong, sub, sup, tt, b, u, i, ol, ul, li, fieldset, form, label, table, caption, tbody, tfoot, thead, tr, th, td, main, canvas, embed, footer, header, nav, section, video{\r\n-   margin: 0;\r\n-   padding: 0;\r\n-   border: 0;\r\n-   font-size: 100%;\r\n-   font: inherit;\r\n-   vertical-align: baseline;\r\n-   text-rendering: optimizeLegibility;\r\n-   -webkit-font-smoothing: antialiased;\r\n-   text-size-adjust: none;\r\n-}\r\n-\r\n-footer, header, nav, section, main{\r\n-   display: block;\r\n-}\r\n-\r\n-body{\r\n-   line-height: 1;\r\n-}\r\n-\r\n-ol, ul{\r\n-   list-style: none;\r\n-}\r\n-\r\n-blockquote, q{\r\n-   quotes: none;\r\n-}\r\n-\r\n-blockquote:before, blockquote:after, q:before, q:after{\r\n-   content: '';\r\n-   content: none;\r\n-}\r\n-\r\n-table{\r\n-   border-collapse: collapse;\r\n-   border-spacing: 0;\r\n-}\r\n-\r\n-input{\r\n-   -webkit-appearance: none;\r\n-   border-radius: 0;\r\n-}\r\n-\r\n-// Reset CSS \r\n-\r\n-.background{\r\n-   background-image: url('../assets//main-background_desktop.jpg');\r\n-   background-repeat: no-repeat;\r\n-   // background-position: center center;\r\n-   // background-attachment: fixed;\r\n-   background-size: cover;\r\n-   // height: 100vh;\r\n-}\r\n-\r\n-.content{\r\n-   // height: 95vh;\r\n-}\r\n-\r\n-.footer{\r\n-   background-image: url('../assets/footer-background.jpg');\r\n-   background-repeat: no-repeat;\r\n-   background-size: cover;\r\n-   width: auto;\r\n-   height: 200px;\r\n-   text-align: center;\r\n-\r\n-   img{\r\n-      width: 40%;\r\n-      height: 2vw;\r\n-      // margin-top: 30px;\r\n-      // margin-left: auto;\r\n-      // margin-right: auto;\r\n-      // margin-bottom: 10px;\r\n-      margin: 30px auto 10px auto;\r\n-      \r\n-   }\r\n-   p{\r\n-      color: white;\r\n-      font-size: 10px;\r\n-      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;\r\n-   }\r\n-}\r\n-\r\n-.logo{\r\n- display: block;\r\n- text-align: center;\r\n- \r\n-   img{\r\n-      height: 9vw;\r\n-      max-width: 100%;\r\n-      object-fit: contain;\r\n-      margin-top: 6%;\r\n-   }\r\n-}\r\n-\r\n-.main-offer_text{\r\n-   text-align: right;\r\n-   img{\r\n-   height: 15vw;\r\n-   max-width: 100%;\r\n-   object-fit: contain;\r\n-   }\r\n-}\r\n-\r\n-.main-offer_reel{\r\n-   position: relative;\r\n-   top: 0;\r\n-   left: 0;\r\n-   // z-index: 1;\r\n-   .spin-machine{\r\n-      // margin-top: -20px;\r\n-      margin: 0;\r\n-      // margin: -5% 0 0 100px;\r\n-      height: 22vw;\r\n-      max-width: 100%;\r\n-      object-fit: contain; \r\n-      -ms-transform: rotate(15deg); /* IE 9 */\r\n-      transform: rotate(15deg);\r\n-\r\n-\r\n-\r\n-      position: relative;\r\n-      top: 0;\r\n-      left: 0;\r\n-  \r\n-    z-index: 1;\r\n-      \r\n-      // z-index: 1;\r\n-   }\r\n-   .spin-machine_prize{\r\n-      // transform: rotate(1deg);\r\n-      // position: absolute;\r\n-   //    max-width: 100%;\r\n-   //  height: 42vw;\r\n-   width: 11vw;\r\n-   //  position: absolute;\r\n-   //  left: 9%;\r\n-   //    -ms-transform: rotate(15deg); /* IE 9 */\r\n-   //    transform: rotate(15deg);\r\n-      // position: relative;\r\n-      // left: -50%;\r\n-      // overflow: hidden;\r\n-      // z-index: -0;\r\n-\r\n-      // position: absolute;\r\n-      top: 30px;\r\n-      left: 30px;\r\n-      z-index: 999;\r\n-   }\r\n-\r\n-}\r\n-\r\n-.Animated-slot{\r\n-   position: absolute;\r\n-   top: -50px;\r\n-   left: 50px;\r\n-}\r\n-.outer {\r\n-   // background-color: red;\r\n-   -ms-transform: rotate(15deg); /* IE 9 */\r\n-      transform: rotate(15deg);\r\n-      height: 9vw;\r\n-   overflow: hidden;\r\n-   position: absolute;\r\n-   top: 55%;\r\n-   left: 12%;\r\n-}\r\n-\r\n-.inner {\r\n-   // display: inline-block;\r\n-   // position: relative;\r\n-   // right: -50%;\r\n-}\r\n-\r\n-@font-face {\r\n-   font-family:\"Komika\";\r\n-   src: url(\"../assets/komika.ttf\") format(\"truetype\");\r\n- }\r\n-\r\n-.join-now{\r\n-   text-align: center;\r\n-   button{\r\n-      font-family:'Komika', Courier, monospace;\r\n-      // line-height: 50px;\r\n-\r\n-      color: rgb(160, 65, 7);\r\n-      font-size: 2em;\r\n-      border-radius: 15px;\r\n-      height: 2em;\r\n-      width: 300px;\r\n-\r\n-      \r\n-      // text-shadow: 2px 2px rgb(249, 204, 114);\r\n-      text-shadow: 0px 1px rgb(249, 204, 114);\r\n-      display: block;\r\n-      margin: auto;\r\n-      // margin-left: 20px;\r\n- \r\n-\r\n-      display: table-cell; \r\n-      vertical-align: middle;\r\n-      padding-bottom: 10px;\r\n-      \r\n-      // margin-bottom: 200px;\r\n-      margin-top: 100px;\r\n-      // background: linear-gradient(0deg, rgb(247, 196, 46) 50%, rgb(255, 232, 89) 50%),linear-gradient(rgb(187, 25, 25), rgb(9, 233, 102)) no-repeat border-box;\r\n-      background: linear-gradient(0deg, rgb(247, 196, 46) 50%, rgb(255, 232, 89) 50%);\r\n-      // background: linear-gradient(90deg, rgb(25, 2, 89) 50%, rgb(255, 89, 139) 50%);\r\n-      border: none;\r\n-\r\n-      // box-shadow:  0 0 30px 0px rgb(244, 145, 32);\r\n-      // clip-path: inset(0px -15px 0px -15px);\r\n-      // box-shadow:  0 8px -8px black, 10px 0 8px -8px black;\r\n-\r\n-      box-shadow: inset 0px 10px 15px -5px rgb(250, 217, 52),inset 0px -15px 20px -5px rgb(240, 132, 8);\r\n-      // box-shadow: inset 0 8px 6px -6px black;\r\n-      // box-shadow: 12px 0 15px -4px rgba(31, 73, 125, 0.8), -12px 0 8px -4px rgba(31, 73, 125, 0.8);\r\n-      // box-shadow: inset 0px 0px 60px  rgb(21, 14, 5);\r\n-   }\r\n-   p{\r\n-      font-size: 8px;\r\n-      margin-top: 10px;\r\n-      margin-bottom: 50px;\r\n-      font-family:'Times New Roman', Times, serif;\r\n-      font-weight: 900;\r\n-      color: rgb(117, 77, 101);\r\n-      text-shadow: 2px 1px rgb(255, 255, 255);\r\n-   }\r\n-\r\n-}\r\n-.slot {\r\n-   // width: auto;\r\n-   // height: 100%;\r\n-   // overflow: hidden;\r\n-   // float: left;\r\n-   // margin-right: 2vh;\r\n- }\r\n- \r\n- .slot .slot-inner .panel {\r\n-   background: red;\r\n-   width: 20vh;\r\n-   height: 20vh;\r\n-   text-align: center;\r\n-   margin-bottom: 2vh;\r\n-   color: #fff;\r\n-   font-family: Courier New;\r\n-   line-height: 20vh;\r\n-   font-size: 10vh;\r\n- }\r\n- \r\n- .slot.first .slot-inner {\r\n-   animation: spin;\r\n-   animation-duration: 10s;\r\n-   animation-iteration-count: infinite;\r\n-   animation-timing-function: linear;\r\n-   // animation-play-state: paused;\r\n-   // animation-delay: 2s;\r\n- }\r\n- \r\n- @keyframes spin {\r\n-   // from { margin-top: 0; }\r\n-   // to { margin-top: -174.6vh; }\r\n-\r\n-   // from { margin-top: -176; }\r\n-   // to { margin-top: -10vh; }\r\n-\r\n-   0%   {margin-top: 0;}\r\n-   40%  {margin-top: -140vh;}\r\n-   // 75% {margin-top:-100vh;}\r\n-   100% {margin-top: -140vh;}\r\n-   \r\n- }\r\n-\r\n- .footer_Nav{\r\n-    display: none;\r\n- }\r\n-\r\n- .mobile_Logos1, .mobile_Logos2{\r\n-   display: none;\r\n- }\r\n-\r\n- @media only screen and (max-width: 600px) {\r\n-   .background{\r\n-      background-image: url('../assets/main-background_mobile.jpg');\r\n-      background-repeat: no-repeat;\r\n-      // background-position: center center;\r\n-      // background-attachment: fixed;\r\n-      background-size: cover;\r\n-      // height: 100vh;\r\n-   }\r\n-\r\n-   .mobile-view{\r\n-      display: block;\r\n-   }\r\n-\r\n-   .logo{\r\n-        img{\r\n-           height: 30vw;\r\n-           max-width: 100%;\r\n-           margin-top: 15%;\r\n-        }\r\n-     }\r\n-\r\n-     .main-offer_text{\r\n-      // display: block;\r\n-      text-align: center;\r\n-      img{\r\n-      height: 35vw;\r\n-      max-width: 100%;\r\n-      margin-top: 20px;\r\n-      }\r\n-   }\r\n-\r\n-   .Animated-slot{\r\n-      top: 10px;\r\n-      left: 35%;\r\n-      .spin-machine{\r\n-         // height: 40vw;\r\n-         max-width: 100%;\r\n-         height: 42vw;\r\n-         margin-top: -10px;\r\n-      }\r\n-   }\r\n-\r\n-   .outer{\r\n-      height: 17vw;\r\n-   }\r\n-   .spin-machine_prize{\r\n-      width: 22vw !important;\r\n-\r\n-   }\r\n-\r\n-   .join-now{\r\n-      margin-top: 70px;\r\n-\r\n-      button{\r\n-         height: 1.9em;\r\n-         width: 230px;\r\n-         font-size: 1.5em;\r\n-         border-radius: 10px;\r\n-      }\r\n-      p{\r\n-         font-size: 6px;\r\n-         margin-bottom: 5px;\r\n-      }\r\n-   }\r\n-\r\n-   .footer{\r\n-      height: 300px;\r\n-\r\n-      .footer_Text{\r\n-         margin: auto;\r\n-         width: 60%\r\n-      }\r\n-\r\n-      img{\r\n-         margin-top: 5px;\r\n-         width: 80%;\r\n-         height: auto;\r\n-      }\r\n-      p{\r\n-         font-size: 8px;\r\n-\r\n-      }\r\n-   }\r\n-   .footer_Nav{\r\n-      display: block;\r\n-      width: 100%;\r\n-      margin: auto;\r\n-\r\n-      \r\n-      ul{\r\n-         margin-top: 30px;\r\n-         height:40px;\r\n-         -webkit-column-count: 3;\r\n-         -moz-column-count: 3;\r\n-              column-count: 3;\r\n-           }\r\n-           \r\n-\r\n-      a{\r\n-         color: white;\r\n-         font-size: 10px;\r\n-         text-decoration: none;\r\n-      }\r\n-   }\r\n-   .initial_Logos{\r\n-      display: none;\r\n-   }\r\n-\r\n-   .mobile_Logo{\r\n-      display: block;\r\n-      margin-top: 15px;\r\n-      margin-bottom: 25px;\r\n-   }\r\n-\r\n-   .mobile_Logos1, .mobile_Logos2{\r\n-      display: block;\r\n-   }\r\n  }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1622510200512,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -355,9 +355,9 @@\n       height: 300px;\r\n \r\n       .footer_Text{\r\n          margin: auto;\r\n-         width: 80%\r\n+         width: 90%\r\n       }\r\n \r\n       img{\r\n          margin-top: 5px;\r\n@@ -380,10 +380,9 @@\n          height:40px;\r\n          -webkit-column-count: 3;\r\n          -moz-column-count: 3;\r\n               column-count: 3;\r\n-           }\r\n-           \r\n+           }       \r\n \r\n       a{\r\n          color: white;\r\n          font-size: 10px;\r\n"
+                },
+                {
+                    "date": 1622510288421,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -336,9 +336,9 @@\n \r\n    }\r\n \r\n    .join-now{\r\n-      margin-top: 70px;\r\n+      margin-top: 100px;\r\n \r\n       button{\r\n          height: 1.9em;\r\n          width: 230px;\r\n"
+                },
+                {
+                    "date": 1622510426029,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -401,5 +401,9 @@\n \r\n    .mobile_Logos1, .mobile_Logos2{\r\n       display: block;\r\n    }\r\n+ }\r\n+\r\n+ @media only screen and (max-width: 600px) {\r\n+    \r\n  }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1622510448533,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -403,7 +403,7 @@\n       display: block;\r\n    }\r\n  }\r\n \r\n- @media only screen and (max-width: 600px) {\r\n-    \r\n+ @media only screen and (max-width: 400px) {\r\n+\r\n  }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1622510620233,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -404,6 +404,8 @@\n    }\r\n  }\r\n \r\n  @media only screen and (max-width: 400px) {\r\n-\r\n+   .mobile_Logos1, .mobile_Logos2{\r\n+      display: none;\r\n+   }\r\n  }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1622510674778,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -404,8 +404,8 @@\n    }\r\n  }\r\n \r\n  @media only screen and (max-width: 400px) {\r\n-   .mobile_Logos1, .mobile_Logos2{\r\n-      display: none;\r\n-   }\r\n+  .footer_Nav{\r\n+     display: none;\r\n+  }\r\n  }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1622510721581,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -403,9 +403,9 @@\n       display: block;\r\n    }\r\n  }\r\n \r\n- @media only screen and (max-width: 400px) {\r\n+ @media only screen and (max-width: 350px) {\r\n   .footer_Nav{\r\n      display: none;\r\n   }\r\n  }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1622510871560,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -186,43 +186,21 @@\n .join-now{\r\n    text-align: center;\r\n    button{\r\n       font-family:'Komika', Courier, monospace;\r\n-      // line-height: 50px;\r\n-\r\n       color: rgb(160, 65, 7);\r\n       font-size: 2em;\r\n       border-radius: 15px;\r\n       height: 2em;\r\n       width: 300px;\r\n-\r\n-      \r\n-      // text-shadow: 2px 2px rgb(249, 204, 114);\r\n       text-shadow: 0px 1px rgb(249, 204, 114);\r\n       display: block;\r\n       margin: auto;\r\n-      // margin-left: 20px;\r\n- \r\n-\r\n-      display: table-cell; \r\n-      vertical-align: middle;\r\n       padding-bottom: 10px;\r\n-      \r\n-      // margin-bottom: 200px;\r\n       margin-top: 100px;\r\n-      // background: linear-gradient(0deg, rgb(247, 196, 46) 50%, rgb(255, 232, 89) 50%),linear-gradient(rgb(187, 25, 25), rgb(9, 233, 102)) no-repeat border-box;\r\n       background: linear-gradient(0deg, rgb(247, 196, 46) 50%, rgb(255, 232, 89) 50%);\r\n-      // background: linear-gradient(90deg, rgb(25, 2, 89) 50%, rgb(255, 89, 139) 50%);\r\n       border: none;\r\n-\r\n-      // box-shadow:  0 0 30px 0px rgb(244, 145, 32);\r\n-      // clip-path: inset(0px -15px 0px -15px);\r\n-      // box-shadow:  0 8px -8px black, 10px 0 8px -8px black;\r\n-\r\n       box-shadow: inset 0px 10px 15px -5px rgb(250, 217, 52),inset 0px -15px 20px -5px rgb(240, 132, 8);\r\n-      // box-shadow: inset 0 8px 6px -6px black;\r\n-      // box-shadow: 12px 0 15px -4px rgba(31, 73, 125, 0.8), -12px 0 8px -4px rgba(31, 73, 125, 0.8);\r\n-      // box-shadow: inset 0px 0px 60px  rgb(21, 14, 5);\r\n    }\r\n    p{\r\n       font-size: 8px;\r\n       margin-top: 10px;\r\n@@ -233,15 +211,8 @@\n       text-shadow: 2px 1px rgb(255, 255, 255);\r\n    }\r\n \r\n }\r\n-.slot {\r\n-   // width: auto;\r\n-   // height: 100%;\r\n-   // overflow: hidden;\r\n-   // float: left;\r\n-   // margin-right: 2vh;\r\n- }\r\n  \r\n  .slot .slot-inner .panel {\r\n    background: red;\r\n    width: 20vh;\r\n@@ -258,24 +229,14 @@\n    animation: spin;\r\n    animation-duration: 10s;\r\n    animation-iteration-count: infinite;\r\n    animation-timing-function: linear;\r\n-   // animation-play-state: paused;\r\n-   // animation-delay: 2s;\r\n  }\r\n  \r\n  @keyframes spin {\r\n-   // from { margin-top: 0; }\r\n-   // to { margin-top: -174.6vh; }\r\n-\r\n-   // from { margin-top: -176; }\r\n-   // to { margin-top: -10vh; }\r\n-\r\n    0%   {margin-top: 0;}\r\n    40%  {margin-top: -140vh;}\r\n-   // 75% {margin-top:-100vh;}\r\n    100% {margin-top: -140vh;}\r\n-   \r\n  }\r\n \r\n  .footer_Nav{\r\n     display: none;\r\n@@ -288,12 +249,9 @@\n  @media only screen and (max-width: 600px) {\r\n    .background{\r\n       background-image: url('../assets/main-background_mobile.jpg');\r\n       background-repeat: no-repeat;\r\n-      // background-position: center center;\r\n-      // background-attachment: fixed;\r\n       background-size: cover;\r\n-      // height: 100vh;\r\n    }\r\n \r\n    .mobile-view{\r\n       display: block;\r\n"
+                },
+                {
+                    "date": 1622510893290,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -127,43 +127,24 @@\n \r\n       position: relative;\r\n       top: 0;\r\n       left: 0;\r\n-  \r\n     z-index: 1;\r\n-      \r\n-      // z-index: 1;\r\n    }\r\n    .spin-machine_prize{\r\n-      // transform: rotate(1deg);\r\n-      // position: absolute;\r\n-   //    max-width: 100%;\r\n-   //  height: 42vw;\r\n-   width: 11vw;\r\n-   //  position: absolute;\r\n-   //  left: 9%;\r\n-   //    -ms-transform: rotate(15deg); /* IE 9 */\r\n-   //    transform: rotate(15deg);\r\n-      // position: relative;\r\n-      // left: -50%;\r\n-      // overflow: hidden;\r\n-      // z-index: -0;\r\n-\r\n-      // position: absolute;\r\n+      width: 11vw;\r\n       top: 30px;\r\n       left: 30px;\r\n       z-index: 999;\r\n    }\r\n-\r\n }\r\n \r\n .Animated-slot{\r\n    position: absolute;\r\n    top: -50px;\r\n    left: 50px;\r\n }\r\n .outer {\r\n-   // background-color: red;\r\n    -ms-transform: rotate(15deg); /* IE 9 */\r\n       transform: rotate(15deg);\r\n       height: 9vw;\r\n    overflow: hidden;\r\n@@ -171,14 +152,8 @@\n    top: 55%;\r\n    left: 12%;\r\n }\r\n \r\n-.inner {\r\n-   // display: inline-block;\r\n-   // position: relative;\r\n-   // right: -50%;\r\n-}\r\n-\r\n @font-face {\r\n    font-family:\"Komika\";\r\n    src: url(\"../assets/komika.ttf\") format(\"truetype\");\r\n  }\r\n"
+                },
+                {
+                    "date": 1622510919247,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -46,23 +46,15 @@\n    -webkit-appearance: none;\r\n    border-radius: 0;\r\n }\r\n \r\n-// Reset CSS \r\n \r\n .background{\r\n    background-image: url('../assets//main-background_desktop.jpg');\r\n    background-repeat: no-repeat;\r\n-   // background-position: center center;\r\n-   // background-attachment: fixed;\r\n    background-size: cover;\r\n-   // height: 100vh;\r\n }\r\n \r\n-.content{\r\n-   // height: 95vh;\r\n-}\r\n-\r\n .footer{\r\n    background-image: url('../assets/footer-background.jpg');\r\n    background-repeat: no-repeat;\r\n    background-size: cover;\r\n@@ -72,12 +64,8 @@\n \r\n    img{\r\n       width: 40%;\r\n       height: 2vw;\r\n-      // margin-top: 30px;\r\n-      // margin-left: auto;\r\n-      // margin-right: auto;\r\n-      // margin-bottom: 10px;\r\n       margin: 30px auto 10px auto;\r\n       \r\n    }\r\n    p{\r\n@@ -111,25 +99,19 @@\n .main-offer_reel{\r\n    position: relative;\r\n    top: 0;\r\n    left: 0;\r\n-   // z-index: 1;\r\n    .spin-machine{\r\n-      // margin-top: -20px;\r\n       margin: 0;\r\n-      // margin: -5% 0 0 100px;\r\n       height: 22vw;\r\n       max-width: 100%;\r\n       object-fit: contain; \r\n       -ms-transform: rotate(15deg); /* IE 9 */\r\n       transform: rotate(15deg);\r\n-\r\n-\r\n-\r\n       position: relative;\r\n       top: 0;\r\n       left: 0;\r\n-    z-index: 1;\r\n+      z-index: 1;\r\n    }\r\n    .spin-machine_prize{\r\n       width: 11vw;\r\n       top: 30px;\r\n"
+                },
+                {
+                    "date": 1622510928312,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -222,9 +222,8 @@\n         }\r\n      }\r\n \r\n      .main-offer_text{\r\n-      // display: block;\r\n       text-align: center;\r\n       img{\r\n       height: 35vw;\r\n       max-width: 100%;\r\n"
+                },
+                {
+                    "date": 1622510982574,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -202,9 +202,9 @@\n  .mobile_Logos1, .mobile_Logos2{\r\n    display: none;\r\n  }\r\n \r\n- @media only screen and (max-width: 600px) {\r\n+ @media only screen and (max-width: 500px) {\r\n    .background{\r\n       background-image: url('../assets/main-background_mobile.jpg');\r\n       background-repeat: no-repeat;\r\n       background-size: cover;\r\n"
+                },
+                {
+                    "date": 1622511134558,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -141,8 +141,10 @@\n  }\r\n \r\n .join-now{\r\n    text-align: center;\r\n+\r\n+   // custom Button CSS \r\n    button{\r\n       font-family:'Komika', Courier, monospace;\r\n       color: rgb(160, 65, 7);\r\n       font-size: 2em;\r\n"
+                },
+                {
+                    "date": 1622511144822,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -142,9 +142,9 @@\n \r\n .join-now{\r\n    text-align: center;\r\n \r\n-   // custom Button CSS \r\n+   // Custom Button CSS (Optional Task)\r\n    button{\r\n       font-family:'Komika', Courier, monospace;\r\n       color: rgb(160, 65, 7);\r\n       font-size: 2em;\r\n"
+                },
+                {
+                    "date": 1622511157897,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -142,9 +142,9 @@\n \r\n .join-now{\r\n    text-align: center;\r\n \r\n-   // Custom Button CSS (Optional Task)\r\n+   // Custom Button CSS (BonusTask)\r\n    button{\r\n       font-family:'Komika', Courier, monospace;\r\n       color: rgb(160, 65, 7);\r\n       font-size: 2em;\r\n"
+                },
+                {
+                    "date": 1622511194458,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -142,16 +142,18 @@\n \r\n .join-now{\r\n    text-align: center;\r\n \r\n-   // Custom Button CSS (BonusTask)\r\n+   // Custom Button CSS (Bonus Task)\r\n    button{\r\n       font-family:'Komika', Courier, monospace;\r\n       color: rgb(160, 65, 7);\r\n       font-size: 2em;\r\n       border-radius: 15px;\r\n-      height: 2em;\r\n-      width: 300px;\r\n+      // height: 2em;\r\n+      // width: 300px;\r\n+      height: 15vw;\r\n+      max-width: 100%;\r\n       text-shadow: 0px 1px rgb(249, 204, 114);\r\n       display: block;\r\n       margin: auto;\r\n       padding-bottom: 10px;\r\n"
+                },
+                {
+                    "date": 1622511215809,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -148,12 +148,11 @@\n       font-family:'Komika', Courier, monospace;\r\n       color: rgb(160, 65, 7);\r\n       font-size: 2em;\r\n       border-radius: 15px;\r\n-      // height: 2em;\r\n-      // width: 300px;\r\n-      height: 15vw;\r\n-      max-width: 100%;\r\n+      height: 2em;\r\n+      width: 300px;\r\n+      \r\n       text-shadow: 0px 1px rgb(249, 204, 114);\r\n       display: block;\r\n       margin: auto;\r\n       padding-bottom: 10px;\r\n"
+                },
+                {
+                    "date": 1622511221247,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -149,9 +149,9 @@\n       color: rgb(160, 65, 7);\r\n       font-size: 2em;\r\n       border-radius: 15px;\r\n       height: 2em;\r\n-      width: 300px;\r\n+      width: 3m;\r\n       \r\n       text-shadow: 0px 1px rgb(249, 204, 114);\r\n       display: block;\r\n       margin: auto;\r\n"
+                },
+                {
+                    "date": 1622511228904,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -149,9 +149,9 @@\n       color: rgb(160, 65, 7);\r\n       font-size: 2em;\r\n       border-radius: 15px;\r\n       height: 2em;\r\n-      width: 3m;\r\n+      width: 5em;\r\n       \r\n       text-shadow: 0px 1px rgb(249, 204, 114);\r\n       display: block;\r\n       margin: auto;\r\n"
+                },
+                {
+                    "date": 1622511255525,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -148,11 +148,12 @@\n       font-family:'Komika', Courier, monospace;\r\n       color: rgb(160, 65, 7);\r\n       font-size: 2em;\r\n       border-radius: 15px;\r\n-      height: 2em;\r\n-      width: 5em;\r\n-      \r\n+      // height: 2em;\r\n+      // width: 10em;\r\n+      height: 15vw;\r\n+      max-width: 100%;\r\n       text-shadow: 0px 1px rgb(249, 204, 114);\r\n       display: block;\r\n       margin: auto;\r\n       padding-bottom: 10px;\r\n"
+                },
+                {
+                    "date": 1622511264844,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -150,10 +150,10 @@\n       font-size: 2em;\r\n       border-radius: 15px;\r\n       // height: 2em;\r\n       // width: 10em;\r\n-      height: 15vw;\r\n-      max-width: 100%;\r\n+      height: 5vw;\r\n+      max-width: 10%;\r\n       text-shadow: 0px 1px rgb(249, 204, 114);\r\n       display: block;\r\n       margin: auto;\r\n       padding-bottom: 10px;\r\n"
+                },
+                {
+                    "date": 1622511271514,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -151,9 +151,9 @@\n       border-radius: 15px;\r\n       // height: 2em;\r\n       // width: 10em;\r\n       height: 5vw;\r\n-      max-width: 10%;\r\n+      max-width: 50%;\r\n       text-shadow: 0px 1px rgb(249, 204, 114);\r\n       display: block;\r\n       margin: auto;\r\n       padding-bottom: 10px;\r\n"
+                },
+                {
+                    "date": 1622511278183,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -151,9 +151,9 @@\n       border-radius: 15px;\r\n       // height: 2em;\r\n       // width: 10em;\r\n       height: 5vw;\r\n-      max-width: 50%;\r\n+      max-width: 30%;\r\n       text-shadow: 0px 1px rgb(249, 204, 114);\r\n       display: block;\r\n       margin: auto;\r\n       padding-bottom: 10px;\r\n"
+                },
+                {
+                    "date": 1622511285294,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -151,9 +151,9 @@\n       border-radius: 15px;\r\n       // height: 2em;\r\n       // width: 10em;\r\n       height: 5vw;\r\n-      max-width: 30%;\r\n+      max-width: 25%;\r\n       text-shadow: 0px 1px rgb(249, 204, 114);\r\n       display: block;\r\n       margin: auto;\r\n       padding-bottom: 10px;\r\n"
+                },
+                {
+                    "date": 1622511329408,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -156,9 +156,9 @@\n       text-shadow: 0px 1px rgb(249, 204, 114);\r\n       display: block;\r\n       margin: auto;\r\n       padding-bottom: 10px;\r\n-      margin-top: 100px;\r\n+      margin-top: 10%;\r\n       background: linear-gradient(0deg, rgb(247, 196, 46) 50%, rgb(255, 232, 89) 50%);\r\n       border: none;\r\n       box-shadow: inset 0px 10px 15px -5px rgb(250, 217, 52),inset 0px -15px 20px -5px rgb(240, 132, 8);\r\n    }\r\n"
+                },
+                {
+                    "date": 1622511340528,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -156,9 +156,9 @@\n       text-shadow: 0px 1px rgb(249, 204, 114);\r\n       display: block;\r\n       margin: auto;\r\n       padding-bottom: 10px;\r\n-      margin-top: 10%;\r\n+      margin-top: %;\r\n       background: linear-gradient(0deg, rgb(247, 196, 46) 50%, rgb(255, 232, 89) 50%);\r\n       border: none;\r\n       box-shadow: inset 0px 10px 15px -5px rgb(250, 217, 52),inset 0px -15px 20px -5px rgb(240, 132, 8);\r\n    }\r\n"
+                },
+                {
+                    "date": 1622511387201,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -146,9 +146,9 @@\n    // Custom Button CSS (Bonus Task)\r\n    button{\r\n       font-family:'Komika', Courier, monospace;\r\n       color: rgb(160, 65, 7);\r\n-      font-size: 2em;\r\n+      font-size: 2wh;\r\n       border-radius: 15px;\r\n       // height: 2em;\r\n       // width: 10em;\r\n       height: 5vw;\r\n@@ -156,9 +156,9 @@\n       text-shadow: 0px 1px rgb(249, 204, 114);\r\n       display: block;\r\n       margin: auto;\r\n       padding-bottom: 10px;\r\n-      margin-top: %;\r\n+      margin-top: 5%;\r\n       background: linear-gradient(0deg, rgb(247, 196, 46) 50%, rgb(255, 232, 89) 50%);\r\n       border: none;\r\n       box-shadow: inset 0px 10px 15px -5px rgb(250, 217, 52),inset 0px -15px 20px -5px rgb(240, 132, 8);\r\n    }\r\n"
+                },
+                {
+                    "date": 1622511395126,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -146,9 +146,9 @@\n    // Custom Button CSS (Bonus Task)\r\n    button{\r\n       font-family:'Komika', Courier, monospace;\r\n       color: rgb(160, 65, 7);\r\n-      font-size: 2wh;\r\n+      font-size: 2vw;\r\n       border-radius: 15px;\r\n       // height: 2em;\r\n       // width: 10em;\r\n       height: 5vw;\r\n"
+                },
+                {
+                    "date": 1622511491867,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -148,10 +148,9 @@\n       font-family:'Komika', Courier, monospace;\r\n       color: rgb(160, 65, 7);\r\n       font-size: 2vw;\r\n       border-radius: 15px;\r\n-      // height: 2em;\r\n-      // width: 10em;\r\n+\r\n       height: 5vw;\r\n       max-width: 25%;\r\n       text-shadow: 0px 1px rgb(249, 204, 114);\r\n       display: block;\r\n"
+                },
+                {
+                    "date": 1622511778831,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -148,11 +148,10 @@\n       font-family:'Komika', Courier, monospace;\r\n       color: rgb(160, 65, 7);\r\n       font-size: 2vw;\r\n       border-radius: 15px;\r\n-\r\n       height: 5vw;\r\n-      max-width: 25%;\r\n+      max-width: 20%;\r\n       text-shadow: 0px 1px rgb(249, 204, 114);\r\n       display: block;\r\n       margin: auto;\r\n       padding-bottom: 10px;\r\n"
+                },
+                {
+                    "date": 1622512036996,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -148,9 +148,9 @@\n       font-family:'Komika', Courier, monospace;\r\n       color: rgb(160, 65, 7);\r\n       font-size: 2vw;\r\n       border-radius: 15px;\r\n-      height: 5vw;\r\n+      height: 4vw;\r\n       max-width: 20%;\r\n       text-shadow: 0px 1px rgb(249, 204, 114);\r\n       display: block;\r\n       margin: auto;\r\n@@ -252,9 +252,9 @@\n \r\n    }\r\n \r\n    .join-now{\r\n-      margin-top: 100px;\r\n+      margin-top: 200px;\r\n \r\n       button{\r\n          height: 1.9em;\r\n          width: 230px;\r\n"
+                },
+                {
+                    "date": 1622512065826,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -255,9 +255,9 @@\n    .join-now{\r\n       margin-top: 200px;\r\n \r\n       button{\r\n-         height: 1.9em;\r\n+         height: 2.9em;\r\n          width: 230px;\r\n          font-size: 1.5em;\r\n          border-radius: 10px;\r\n       }\r\n"
+                },
+                {
+                    "date": 1622512078449,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -255,10 +255,10 @@\n    .join-now{\r\n       margin-top: 200px;\r\n \r\n       button{\r\n-         height: 2.9em;\r\n-         width: 230px;\r\n+         height: 1.9em;\r\n+         width: 300px;\r\n          font-size: 1.5em;\r\n          border-radius: 10px;\r\n       }\r\n       p{\r\n"
+                },
+                {
+                    "date": 1622512087547,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -256,9 +256,9 @@\n       margin-top: 200px;\r\n \r\n       button{\r\n          height: 1.9em;\r\n-         width: 300px;\r\n+         width: 300px !important;\r\n          font-size: 1.5em;\r\n          border-radius: 10px;\r\n       }\r\n       p{\r\n"
+                },
+                {
+                    "date": 1622512093854,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -256,9 +256,9 @@\n       margin-top: 200px;\r\n \r\n       button{\r\n          height: 1.9em;\r\n-         width: 300px !important;\r\n+         width: 600px !important;\r\n          font-size: 1.5em;\r\n          border-radius: 10px;\r\n       }\r\n       p{\r\n"
+                },
+                {
+                    "date": 1622512101869,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -255,9 +255,9 @@\n    .join-now{\r\n       margin-top: 200px;\r\n \r\n       button{\r\n-         height: 1.9em;\r\n+         // height: 1.9em;\r\n          width: 600px !important;\r\n          font-size: 1.5em;\r\n          border-radius: 10px;\r\n       }\r\n"
+                },
+                {
+                    "date": 1622512114030,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -255,11 +255,11 @@\n    .join-now{\r\n       margin-top: 200px;\r\n \r\n       button{\r\n-         // height: 1.9em;\r\n+         height: 1.9em;\r\n          width: 600px !important;\r\n-         font-size: 1.5em;\r\n+         font-size: 1em;\r\n          border-radius: 10px;\r\n       }\r\n       p{\r\n          font-size: 6px;\r\n"
+                },
+                {
+                    "date": 1622512119897,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -257,9 +257,9 @@\n \r\n       button{\r\n          height: 1.9em;\r\n          width: 600px !important;\r\n-         font-size: 1em;\r\n+         font-size: 0.5em;\r\n          border-radius: 10px;\r\n       }\r\n       p{\r\n          font-size: 6px;\r\n"
+                },
+                {
+                    "date": 1622512151047,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -255,8 +255,10 @@\n    .join-now{\r\n       margin-top: 200px;\r\n \r\n       button{\r\n+         height: 4vw;\r\n+         max-width: 20%;\r\n          height: 1.9em;\r\n          width: 600px !important;\r\n          font-size: 0.5em;\r\n          border-radius: 10px;\r\n"
+                },
+                {
+                    "date": 1622512163070,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -255,12 +255,12 @@\n    .join-now{\r\n       margin-top: 200px;\r\n \r\n       button{\r\n-         height: 4vw;\r\n+         height: 40vw;\r\n          max-width: 20%;\r\n-         height: 1.9em;\r\n-         width: 600px !important;\r\n+         // height: 1.9em;\r\n+         // width: 600px !important;\r\n          font-size: 0.5em;\r\n          border-radius: 10px;\r\n       }\r\n       p{\r\n"
+                },
+                {
+                    "date": 1622512173345,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -255,13 +255,13 @@\n    .join-now{\r\n       margin-top: 200px;\r\n \r\n       button{\r\n-         height: 40vw;\r\n+         height: 10vw;\r\n          max-width: 20%;\r\n          // height: 1.9em;\r\n          // width: 600px !important;\r\n-         font-size: 0.5em;\r\n+         font-size: 10em;\r\n          border-radius: 10px;\r\n       }\r\n       p{\r\n          font-size: 6px;\r\n"
+                },
+                {
+                    "date": 1622512180412,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -259,9 +259,9 @@\n          height: 10vw;\r\n          max-width: 20%;\r\n          // height: 1.9em;\r\n          // width: 600px !important;\r\n-         font-size: 10em;\r\n+         font-size: 2em;\r\n          border-radius: 10px;\r\n       }\r\n       p{\r\n          font-size: 6px;\r\n"
+                },
+                {
+                    "date": 1622512189271,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -256,12 +256,12 @@\n       margin-top: 200px;\r\n \r\n       button{\r\n          height: 10vw;\r\n-         max-width: 20%;\r\n+         max-width: 230%;\r\n          // height: 1.9em;\r\n          // width: 600px !important;\r\n-         font-size: 2em;\r\n+         font-size: 1em;\r\n          border-radius: 10px;\r\n       }\r\n       p{\r\n          font-size: 6px;\r\n"
+                },
+                {
+                    "date": 1622512256867,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -256,9 +256,9 @@\n       margin-top: 200px;\r\n \r\n       button{\r\n          height: 10vw;\r\n-         max-width: 230%;\r\n+         max-width: 30%;\r\n          // height: 1.9em;\r\n          // width: 600px !important;\r\n          font-size: 1em;\r\n          border-radius: 10px;\r\n@@ -325,5 +325,13 @@\n  @media only screen and (max-width: 350px) {\r\n   .footer_Nav{\r\n      display: none;\r\n   }\r\n+  button{\r\n+   height: 10vw;\r\n+   max-width: 30%;\r\n+   // height: 1.9em;\r\n+   // width: 600px !important;\r\n+   font-size: 1em;\r\n+   border-radius: 10px;\r\n+}\r\n  }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1622512265121,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -327,9 +327,9 @@\n      display: none;\r\n   }\r\n   button{\r\n    height: 10vw;\r\n-   max-width: 30%;\r\n+   max-width: 40%;\r\n    // height: 1.9em;\r\n    // width: 600px !important;\r\n    font-size: 1em;\r\n    border-radius: 10px;\r\n"
+                },
+                {
+                    "date": 1622512294030,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -325,13 +325,21 @@\n  @media only screen and (max-width: 350px) {\r\n   .footer_Nav{\r\n      display: none;\r\n   }\r\n-  button{\r\n-   height: 10vw;\r\n-   max-width: 40%;\r\n-   // height: 1.9em;\r\n-   // width: 600px !important;\r\n-   font-size: 1em;\r\n-   border-radius: 10px;\r\n+  .join-now{\r\n+   margin-top: 200px;\r\n+\r\n+   button{\r\n+      height: 10vw;\r\n+      max-width: 30%;\r\n+      // height: 1.9em;\r\n+      // width: 600px !important;\r\n+      font-size: 1em;\r\n+      border-radius: 10px;\r\n+   }\r\n+   p{\r\n+      font-size: 6px;\r\n+      margin-bottom: 5px;\r\n+   }\r\n }\r\n  }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1622512300303,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -326,9 +326,8 @@\n   .footer_Nav{\r\n      display: none;\r\n   }\r\n   .join-now{\r\n-   margin-top: 200px;\r\n \r\n    button{\r\n       height: 10vw;\r\n       max-width: 30%;\r\n@@ -336,10 +335,6 @@\n       // width: 600px !important;\r\n       font-size: 1em;\r\n       border-radius: 10px;\r\n    }\r\n-   p{\r\n-      font-size: 6px;\r\n-      margin-bottom: 5px;\r\n-   }\r\n }\r\n  }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1622512323036,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -326,12 +326,12 @@\n   .footer_Nav{\r\n      display: none;\r\n   }\r\n   .join-now{\r\n-\r\n+   margin-top: 100px;\r\n    button{\r\n       height: 10vw;\r\n-      max-width: 30%;\r\n+      max-width: 40%;\r\n       // height: 1.9em;\r\n       // width: 600px !important;\r\n       font-size: 1em;\r\n       border-radius: 10px;\r\n"
+                },
+                {
+                    "date": 1622512337931,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -326,12 +326,12 @@\n   .footer_Nav{\r\n      display: none;\r\n   }\r\n   .join-now{\r\n-   margin-top: 100px;\r\n+   margin-top: 150px;\r\n    button{\r\n       height: 10vw;\r\n-      max-width: 40%;\r\n+      max-width: 50%;\r\n       // height: 1.9em;\r\n       // width: 600px !important;\r\n       font-size: 1em;\r\n       border-radius: 10px;\r\n"
+                },
+                {
+                    "date": 1622512368907,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -252,9 +252,9 @@\n \r\n    }\r\n \r\n    .join-now{\r\n-      margin-top: 200px;\r\n+      margin-top: 180px;\r\n \r\n       button{\r\n          height: 10vw;\r\n          max-width: 30%;\r\n@@ -328,9 +328,9 @@\n   }\r\n   .join-now{\r\n    margin-top: 150px;\r\n    button{\r\n-      height: 10vw;\r\n+      height: 12vw;\r\n       max-width: 50%;\r\n       // height: 1.9em;\r\n       // width: 600px !important;\r\n       font-size: 1em;\r\n"
+                },
+                {
+                    "date": 1622512423158,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -336,5 +336,8 @@\n       font-size: 1em;\r\n       border-radius: 10px;\r\n    }\r\n }\r\n+.footer{\r\n+   height: 200px;\r\n+}\r\n  }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1622512470885,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -256,9 +256,9 @@\n       margin-top: 180px;\r\n \r\n       button{\r\n          height: 10vw;\r\n-         max-width: 30%;\r\n+         max-width: 40%;\r\n          // height: 1.9em;\r\n          // width: 600px !important;\r\n          font-size: 1em;\r\n          border-radius: 10px;\r\n"
+                },
+                {
+                    "date": 1622512476621,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -252,9 +252,9 @@\n \r\n    }\r\n \r\n    .join-now{\r\n-      margin-top: 180px;\r\n+      margin-top: 160px;\r\n \r\n       button{\r\n          height: 10vw;\r\n          max-width: 40%;\r\n"
+                },
+                {
+                    "date": 1622512482402,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -256,9 +256,9 @@\n       margin-top: 160px;\r\n \r\n       button{\r\n          height: 10vw;\r\n-         max-width: 40%;\r\n+         max-width: 50%;\r\n          // height: 1.9em;\r\n          // width: 600px !important;\r\n          font-size: 1em;\r\n          border-radius: 10px;\r\n"
+                },
+                {
+                    "date": 1622512603922,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -58,9 +58,9 @@\n    background-image: url('../assets/footer-background.jpg');\r\n    background-repeat: no-repeat;\r\n    background-size: cover;\r\n    width: auto;\r\n-   height: 200px;\r\n+   height: 500px;\r\n    text-align: center;\r\n \r\n    img{\r\n       width: 40%;\r\n"
+                },
+                {
+                    "date": 1622512616442,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -58,9 +58,9 @@\n    background-image: url('../assets/footer-background.jpg');\r\n    background-repeat: no-repeat;\r\n    background-size: cover;\r\n    width: auto;\r\n-   height: 500px;\r\n+   height: 200px;\r\n    text-align: center;\r\n \r\n    img{\r\n       width: 40%;\r\n"
+                },
+                {
+                    "date": 1622512623500,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -58,9 +58,9 @@\n    background-image: url('../assets/footer-background.jpg');\r\n    background-repeat: no-repeat;\r\n    background-size: cover;\r\n    width: auto;\r\n-   height: 200px;\r\n+   height: 300px;\r\n    text-align: center;\r\n \r\n    img{\r\n       width: 40%;\r\n"
+                },
+                {
+                    "date": 1622512635209,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -58,9 +58,9 @@\n    background-image: url('../assets/footer-background.jpg');\r\n    background-repeat: no-repeat;\r\n    background-size: cover;\r\n    width: auto;\r\n-   height: 300px;\r\n+   height: 250px;\r\n    text-align: center;\r\n \r\n    img{\r\n       width: 40%;\r\n"
+                },
+                {
+                    "date": 1622512842128,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -204,8 +204,12 @@\n  .mobile_Logos1, .mobile_Logos2{\r\n    display: none;\r\n  }\r\n \r\n+ @media only screen and (max-width: 500px){\r\n+    \r\n+ }\r\n+\r\n  @media only screen and (max-width: 500px) {\r\n    .background{\r\n       background-image: url('../assets/main-background_mobile.jpg');\r\n       background-repeat: no-repeat;\r\n"
+                },
+                {
+                    "date": 1622512974423,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -204,12 +204,13 @@\n  .mobile_Logos1, .mobile_Logos2{\r\n    display: none;\r\n  }\r\n \r\n- @media only screen and (max-width: 500px){\r\n-    \r\n- }\r\n+ @media screen and (max-width: 995px), \r\n+ screen and (max-height: 700px) {\r\n \r\n+}\r\n+\r\n  @media only screen and (max-width: 500px) {\r\n    .background{\r\n       background-image: url('../assets/main-background_mobile.jpg');\r\n       background-repeat: no-repeat;\r\n"
+                },
+                {
+                    "date": 1622513024968,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -204,10 +204,10 @@\n  .mobile_Logos1, .mobile_Logos2{\r\n    display: none;\r\n  }\r\n \r\n- @media screen and (max-width: 995px), \r\n- screen and (max-height: 700px) {\r\n+ @media screen and (max-width: 1316px), \r\n+ screen and (max-height: 851px) {\r\n \r\n }\r\n \r\n  @media only screen and (max-width: 500px) {\r\n"
+                },
+                {
+                    "date": 1622513080541,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -206,10 +206,12 @@\n  }\r\n \r\n  @media screen and (max-width: 1316px), \r\n  screen and (max-height: 851px) {\r\n-\r\n+.main_content{\r\n+   \r\n }\r\n+}\r\n \r\n  @media only screen and (max-width: 500px) {\r\n    .background{\r\n       background-image: url('../assets/main-background_mobile.jpg');\r\n"
+                },
+                {
+                    "date": 1622513088915,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -207,9 +207,9 @@\n \r\n  @media screen and (max-width: 1316px), \r\n  screen and (max-height: 851px) {\r\n .main_content{\r\n-   \r\n+   margin-top: 30px;\r\n }\r\n }\r\n \r\n  @media only screen and (max-width: 500px) {\r\n"
+                },
+                {
+                    "date": 1622513109592,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -207,9 +207,9 @@\n \r\n  @media screen and (max-width: 1316px), \r\n  screen and (max-height: 851px) {\r\n .main_content{\r\n-   margin-top: 30px;\r\n+   // margin-top: 30px;\r\n }\r\n }\r\n \r\n  @media only screen and (max-width: 500px) {\r\n"
+                },
+                {
+                    "date": 1622513126159,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -207,9 +207,9 @@\n \r\n  @media screen and (max-width: 1316px), \r\n  screen and (max-height: 851px) {\r\n .main_content{\r\n-   // margin-top: 30px;\r\n+   margin-top: 30px;\r\n }\r\n }\r\n \r\n  @media only screen and (max-width: 500px) {\r\n"
+                },
+                {
+                    "date": 1622513142621,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -207,9 +207,9 @@\n \r\n  @media screen and (max-width: 1316px), \r\n  screen and (max-height: 851px) {\r\n .main_content{\r\n-   margin-top: 30px;\r\n+   margin-top: 50px;\r\n }\r\n }\r\n \r\n  @media only screen and (max-width: 500px) {\r\n"
+                },
+                {
+                    "date": 1622513195522,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -205,9 +205,9 @@\n    display: none;\r\n  }\r\n \r\n  @media screen and (max-width: 1316px), \r\n- screen and (max-height: 851px) {\r\n+ screen and (min-height: 851px) {\r\n .main_content{\r\n    margin-top: 50px;\r\n }\r\n }\r\n"
+                },
+                {
+                    "date": 1622513228417,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -207,9 +207,9 @@\n \r\n  @media screen and (max-width: 1316px), \r\n  screen and (min-height: 851px) {\r\n .main_content{\r\n-   margin-top: 50px;\r\n+   margin-top: 100px;\r\n }\r\n }\r\n \r\n  @media only screen and (max-width: 500px) {\r\n"
+                },
+                {
+                    "date": 1622513283291,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -207,9 +207,9 @@\n \r\n  @media screen and (max-width: 1316px), \r\n  screen and (min-height: 851px) {\r\n .main_content{\r\n-   margin-top: 100px;\r\n+   // margin-top: 100px;\r\n }\r\n }\r\n \r\n  @media only screen and (max-width: 500px) {\r\n"
+                },
+                {
+                    "date": 1622513289886,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -207,9 +207,9 @@\n \r\n  @media screen and (max-width: 1316px), \r\n  screen and (min-height: 851px) {\r\n .main_content{\r\n-   // margin-top: 100px;\r\n+   margin-top: 100px;\r\n }\r\n }\r\n \r\n  @media only screen and (max-width: 500px) {\r\n"
+                },
+                {
+                    "date": 1622513296672,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -204,9 +204,9 @@\n  .mobile_Logos1, .mobile_Logos2{\r\n    display: none;\r\n  }\r\n \r\n- @media screen and (max-width: 1316px), \r\n+ @media screen and (min-width: 1316px), \r\n  screen and (min-height: 851px) {\r\n .main_content{\r\n    margin-top: 100px;\r\n }\r\n"
+                },
+                {
+                    "date": 1622513332892,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -207,9 +207,9 @@\n \r\n  @media screen and (min-width: 1316px), \r\n  screen and (min-height: 851px) {\r\n .main_content{\r\n-   margin-top: 100px;\r\n+   // margin-top: 100px;\r\n }\r\n }\r\n \r\n  @media only screen and (max-width: 500px) {\r\n"
+                },
+                {
+                    "date": 1622513369608,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -209,9 +209,12 @@\n  screen and (min-height: 851px) {\r\n .main_content{\r\n    // margin-top: 100px;\r\n }\r\n+.footer{\r\n+   margin-top: 200px;\r\n }\r\n+}\r\n \r\n  @media only screen and (max-width: 500px) {\r\n    .background{\r\n       background-image: url('../assets/main-background_mobile.jpg');\r\n"
+                },
+                {
+                    "date": 1622513376882,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -210,9 +210,9 @@\n .main_content{\r\n    // margin-top: 100px;\r\n }\r\n .footer{\r\n-   margin-top: 200px;\r\n+   margin-top: 100px;\r\n }\r\n }\r\n \r\n  @media only screen and (max-width: 500px) {\r\n"
+                },
+                {
+                    "date": 1622513399798,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -210,9 +210,9 @@\n .main_content{\r\n    // margin-top: 100px;\r\n }\r\n .footer{\r\n-   margin-top: 100px;\r\n+   margin-top: 200px;\r\n }\r\n }\r\n \r\n  @media only screen and (max-width: 500px) {\r\n"
+                },
+                {
+                    "date": 1622513426040,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -206,11 +206,8 @@\n  }\r\n \r\n  @media screen and (min-width: 1316px), \r\n  screen and (min-height: 851px) {\r\n-.main_content{\r\n-   // margin-top: 100px;\r\n-}\r\n .footer{\r\n    margin-top: 200px;\r\n }\r\n }\r\n"
+                },
+                {
+                    "date": 1622513436112,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -210,8 +210,14 @@\n .footer{\r\n    margin-top: 200px;\r\n }\r\n }\r\n+@media screen and (min-width: 1316px), \r\n+screen and (min-height: 851px) {\r\n+.footer{\r\n+  margin-top: 200px;\r\n+}\r\n+}\r\n \r\n  @media only screen and (max-width: 500px) {\r\n    .background{\r\n       background-image: url('../assets/main-background_mobile.jpg');\r\n"
+                },
+                {
+                    "date": 1622513452675,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -210,9 +210,9 @@\n .footer{\r\n    margin-top: 200px;\r\n }\r\n }\r\n-@media screen and (min-width: 1316px), \r\n+@media screen and (min-width: 820px), \r\n screen and (min-height: 851px) {\r\n .footer{\r\n   margin-top: 200px;\r\n }\r\n"
+                },
+                {
+                    "date": 1622513461511,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -213,9 +213,9 @@\n }\r\n @media screen and (min-width: 820px), \r\n screen and (min-height: 851px) {\r\n .footer{\r\n-  margin-top: 200px;\r\n+  margin-top: 300px;\r\n }\r\n }\r\n \r\n  @media only screen and (max-width: 500px) {\r\n"
+                },
+                {
+                    "date": 1622513468121,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -213,9 +213,9 @@\n }\r\n @media screen and (min-width: 820px), \r\n screen and (min-height: 851px) {\r\n .footer{\r\n-  margin-top: 300px;\r\n+  margin-top: 250px;\r\n }\r\n }\r\n \r\n  @media only screen and (max-width: 500px) {\r\n"
+                },
+                {
+                    "date": 1622513527199,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -214,8 +214,9 @@\n @media screen and (min-width: 820px), \r\n screen and (min-height: 851px) {\r\n .footer{\r\n   margin-top: 250px;\r\n+  height: 350px;\r\n }\r\n }\r\n \r\n  @media only screen and (max-width: 500px) {\r\n"
+                },
+                {
+                    "date": 1622513584879,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -214,9 +214,9 @@\n @media screen and (min-width: 820px), \r\n screen and (min-height: 851px) {\r\n .footer{\r\n   margin-top: 250px;\r\n-  height: 350px;\r\n+//   height: 350px;\r\n }\r\n }\r\n \r\n  @media only screen and (max-width: 500px) {\r\n"
+                },
+                {
+                    "date": 1622513597440,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -213,9 +213,9 @@\n }\r\n @media screen and (min-width: 820px), \r\n screen and (min-height: 851px) {\r\n .footer{\r\n-  margin-top: 250px;\r\n+//   margin-top: 250px;\r\n //   height: 350px;\r\n }\r\n }\r\n \r\n"
+                },
+                {
+                    "date": 1622513602822,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -207,9 +207,9 @@\n \r\n  @media screen and (min-width: 1316px), \r\n  screen and (min-height: 851px) {\r\n .footer{\r\n-   margin-top: 200px;\r\n+   // margin-top: 200px;\r\n }\r\n }\r\n @media screen and (min-width: 820px), \r\n screen and (min-height: 851px) {\r\n"
+                },
+                {
+                    "date": 1622513609096,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -207,9 +207,9 @@\n \r\n  @media screen and (min-width: 1316px), \r\n  screen and (min-height: 851px) {\r\n .footer{\r\n-   // margin-top: 200px;\r\n+   margin-top: 200px;\r\n }\r\n }\r\n @media screen and (min-width: 820px), \r\n screen and (min-height: 851px) {\r\n"
+                },
+                {
+                    "date": 1622513617339,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -204,22 +204,10 @@\n  .mobile_Logos1, .mobile_Logos2{\r\n    display: none;\r\n  }\r\n \r\n- @media screen and (min-width: 1316px), \r\n- screen and (min-height: 851px) {\r\n-.footer{\r\n-   margin-top: 200px;\r\n-}\r\n-}\r\n-@media screen and (min-width: 820px), \r\n-screen and (min-height: 851px) {\r\n-.footer{\r\n-//   margin-top: 250px;\r\n-//   height: 350px;\r\n-}\r\n-}\r\n \r\n+\r\n  @media only screen and (max-width: 500px) {\r\n    .background{\r\n       background-image: url('../assets/main-background_mobile.jpg');\r\n       background-repeat: no-repeat;\r\n"
+                },
+                {
+                    "date": 1622513664560,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -339,7 +339,22 @@\n       border-radius: 10px;\r\n    }\r\n }\r\n .footer{\r\n+   margin-top: 1px;\r\n    height: 200px;\r\n }\r\n\\ No newline at end of file\n- }\n+ }\r\n+\r\n+ @media screen and (min-width: 1316px), \r\n+ screen and (min-height: 851px) {\r\n+.footer{\r\n+   margin-top: 200px;\r\n+}\r\n+}\r\n+@media screen and (min-width: 820px), \r\n+screen and (min-height: 851px) {\r\n+.footer{\r\n+  margin-top: 250px;\r\n+//   height: 350px;\r\n+}\r\n+}\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1622513703091,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -339,9 +339,9 @@\n       border-radius: 10px;\r\n    }\r\n }\r\n .footer{\r\n-   margin-top: 1px;\r\n+   margin-top: 1px !important;\r\n    height: 200px;\r\n }\r\n  }\r\n \r\n"
+                },
+                {
+                    "date": 1622513715656,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -339,9 +339,9 @@\n       border-radius: 10px;\r\n    }\r\n }\r\n .footer{\r\n-   margin-top: 1px !important;\r\n+   margin-top: 100px !important;\r\n    height: 200px;\r\n }\r\n  }\r\n \r\n"
+                },
+                {
+                    "date": 1622513723288,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -339,9 +339,9 @@\n       border-radius: 10px;\r\n    }\r\n }\r\n .footer{\r\n-   margin-top: 100px !important;\r\n+   margin-top: 50px !important;\r\n    height: 200px;\r\n }\r\n  }\r\n \r\n"
+                },
+                {
+                    "date": 1622513729035,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -340,9 +340,9 @@\n    }\r\n }\r\n .footer{\r\n    margin-top: 50px !important;\r\n-   height: 200px;\r\n+   height: 250px;\r\n }\r\n  }\r\n \r\n  @media screen and (min-width: 1316px), \r\n"
+                },
+                {
+                    "date": 1622513743139,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -339,10 +339,9 @@\n       border-radius: 10px;\r\n    }\r\n }\r\n .footer{\r\n-   margin-top: 50px !important;\r\n-   height: 250px;\r\n+   height: 200px;\r\n }\r\n  }\r\n \r\n  @media screen and (min-width: 1316px), \r\n"
+                },
+                {
+                    "date": 1622513752182,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -204,10 +204,22 @@\n  .mobile_Logos1, .mobile_Logos2{\r\n    display: none;\r\n  }\r\n \r\n+ @media screen and (min-width: 1316px), \r\n+ screen and (min-height: 851px) {\r\n+.footer{\r\n+   margin-top: 200px;\r\n+}\r\n+}\r\n+@media screen and (min-width: 820px), \r\n+screen and (min-height: 851px) {\r\n+.footer{\r\n+  margin-top: 250px;\r\n+//   height: 350px;\r\n+}\r\n+}\r\n \r\n-\r\n  @media only screen and (max-width: 500px) {\r\n    .background{\r\n       background-image: url('../assets/main-background_mobile.jpg');\r\n       background-repeat: no-repeat;\r\n@@ -341,19 +353,5 @@\n }\r\n .footer{\r\n    height: 200px;\r\n }\r\n- }\r\n-\r\n- @media screen and (min-width: 1316px), \r\n- screen and (min-height: 851px) {\r\n-.footer{\r\n-   margin-top: 200px;\r\n-}\r\n-}\r\n-@media screen and (min-width: 820px), \r\n-screen and (min-height: 851px) {\r\n-.footer{\r\n-  margin-top: 250px;\r\n-//   height: 350px;\r\n-}\r\n-}\n\\ No newline at end of file\n+ }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1622513770085,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -351,7 +351,8 @@\n       border-radius: 10px;\r\n    }\r\n }\r\n .footer{\r\n+   margin-top: 1px !important;\r\n    height: 200px;\r\n }\r\n  }\n\\ No newline at end of file\n"
                 }
             ],
             "date": 1622382074766,
